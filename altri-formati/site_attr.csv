@@ -1,0 +1,396 @@
+id,name,pleiades,typology,episcopalsee,isnomoscapital,datefrom,dateto
+1,Memphis,736963,,1,,,
+2,Letopolis,727149,settlement,1,1,325,750
+3,Sais,727217,settlement,1,1,326,1100
+4,Xois,727256,settlement,1,1,,
+5,Hermopolis Mikra,727123,settlement-modern,1,1,325,1300
+6,Heroonpolis,727124,,,1,,
+7,Bousiris,727090,settlement,1,1,301,1100
+8,Athribis,727078,settlement,1,1,301,1000
+9,Leontopolis (Tell el-Moqdam),727147,settlement,1,1,301,900
+10,Sebennytos,727227,settlement,1,1,326,
+11,Heliopolis,727117,settlement,1,1,300,640
+12,Tanis,727236,,1,1,,
+13,Hermopolis,727122,,,1,,
+14,Tell el-Balamun,727111,settlement,1,1,301,700
+15,Bubastis,727088,settlement,1,1,326,1100
+16,Elephantine,786021,settlement,,1,300,1300
+18,Hierakonpolis,786037,,,1,,
+19,Luxor complex,786017,settlement,1,1,576,1100
+20,Koptos,786010,settlement,1,1,300,1000
+21,Dendera,786127,church,1,1,325,1300
+22,Diospolis Mikra,756566,,1,1,,
+23,Abydos,756512,settlement,,1,401,1000
+24,Panopolis,756613,,1,1,,
+25,Antaiopolis,756515,,1,1,,
+26,Hypsele,756578,,1,1,,
+27,Lykopolis,756593,hermitage unit(s),1,1,301,1500
+28,Hermoupolis Magna,756574,,1,1,,
+29,Kynopolis,736949,,1,1,,
+30,Ankyropolis,736888,,,1,,
+31,Oxyrhynchos,736983,,1,1,,
+32,Herakleopolis Magna,736920,,1,1,,
+33,Arsinoe,736948,,1,1,,
+34,Aphroditopolis,736889,,1,1,,
+35,Thmouis,727249,settlement,1,1,301,900
+36,Pelusium,727192,settlement,1,,300,1108
+37,Taya,727243,settlement,1,1,325,1228
+38,Alexandria,727070,,1,,,
+39,Metelis,727163,settlement,1,1,276,
+40,Buto,727094,settlement,1,1,301,825
+41,Herakleopolis Mikra,727121,settlement,1,1,300,750
+42,Kynopolis Inferior,727144,,1,,,
+43,Pharbaithos,727196,,1,,,
+44,Phakoussa,727194,,1,1,,
+45,Nikiou,727174,settlement,1,1,326,
+46,Phragonis,727201,settlement,1,,325,1375
+47,Kabasa,727133,settlement,1,1,,
+48,Panephysis,727184,,1,,,
+49,Andronpolis,727071,settlement,1,1,350,1100
+50,Onouphis Kato,730134,settlement,1,,,
+51,Onouphis Ano,730134,settlement,1,1,351,
+52,Schedia,727221,,1,,,
+53,Antinoupolis,756518,settlement,1,,250,900
+54,Ptolemais,373879,,1,,,
+55,Apollonopolis Parva,785975,,1,,,
+56,Koussai,756588,,1,,,
+57,Neiloupolis,736973,,1,,,
+58,Esna,786059,settlement,1,1,,
+64,Chenoboskion,756545,,,,,
+66,Tabennisis,786125,,,,,
+67,Maximianoupolis,786047,,,,,
+68,Pbou,756540,,,,,
+70,Hermonthis,786036,settlement,1,1,301,800
+72,Deir Anba Hadra / St. Simeon,786106,monastery,,,601,1300
+73,Bawit,756663,,,,,
+74,Naqlun,736975,,,,,
+75,Monastery of Apa Jeremiah,736963,monastery,0,1,451,950
+76,Sketis,727232,settlement,,,330,1450
+77,Nitria,727177,,,,,
+78,Kellia,727141,,,,,
+79,Monastery of St. Paul,746800,,,,,
+80,Monastery St. Antony,,,,,,
+82,Western Thebes MMA 1152,786067,hermitage unit(s),,,551,750
+83,Nag Hammadi,,settlement-modern,1,,301,500
+84,Berenike (Upper Egypt),785986,,1,,,
+86,Deir el-Qaddis Abu Bifam,756547,,,,,
+87,Medinet Habu,786067,settlement,,,551,900
+88,Petemout,786088,,,,,
+89,Ostrakine,687993,,1,,,
+90,Naqada,,,,,,
+91,Monastery of St. Thomas at Wadi Sarga,759543,settlement,,,551,715
+92,Deir el-Bala’izah,756520,monastery,,,651,750
+93,Deir el-Moharraq,,,,,,
+94,Gebel Assiut el-Gharbi,756593,,,,,
+95,Hagr Edfu,,settlement,,,401,1100
+96,Philae,786089,,,,,
+97,Deir el-Kubbaniya,786056,monastery,,,,
+98,Deir Qubbat el Hawa,979588215,,,,,
+99,Hamuli/Monastery of the Archangel Michael at Phantoou,737001,monastery,,,822,914
+100,Gebel el-Qalamun,737030,monastery,,,,
+101,Touton,737072,settlement,,,861,1020
+102,Dishna,,undefined,,,325,700
+103,This,756659,,,,,
+104,Medinet Madi,736972,settlement,,,351,900
+105,Bakchias,736896,settlement,,,451,650
+106,Karanis,736932,settlement,,,325,650
+107,Soknopaiou Nesos,737053,,,,,
+108,Deir Abu Lifah,,monastery,,,686,858
+109,Sadamant,,monastery,,,1251,1325
+110,Wadi Natrun,727104,,,,,
+112,Monastery of Shenoute at Atripe,756530,monastery,,,350,
+113,Red Monastery at Atripe,,,,,,
+114,Kellis,776189,settlement,,,,
+115,Bagawat,776156,settlement,,,301,700
+116,Abu Mina,727105,,,,,
+117,Marina el-Alamein,716524,settlement,,,250,640
+118,Ennaton,690832,monastery,,,301,1500
+119,Dionysias,736904,,,,,
+120,Philoteris,737010,,,,,
+121,Theadelphia,737081,,,,,
+122,Hawara,736918,basilica,,,350,800
+123,El-Lahun,737029,,,,,
+126,Rinokoloura,688016,,1,,,
+127,Pachnemounis,727183,settlement,1,1,301,1000
+128,Syene,786123,,1,,,
+131,Terenouthis,727244,settlement,1,,201,800
+132,Paralos,727224,settlement,1,,326,1100
+133,Tamiathis,727235,,1,,,
+135,Daphnai,727103,,1,,,
+138,Thennesos,727247,,1,,,
+140,Clysma,727101,,1,,,
+141,Naukratis,727169,settlement,1,,401,1400
+143,Marea,727153,,1,,,
+144,Babylon - Fustat,727082,settlement,1,,641,969
+145,Hephaistos,727119,settlement,1,,425,550
+146,Skenai Mandrai,737050,,1,,,
+147,Hamamieh,,,0,,,
+150,Paraitonion,716615,,1,,,
+152,Zygrai,716656,,1,,,
+154,Oasis Magna,776210,,1,,,
+155,Prosopites,727206,,1,,,
+156,Sile,727231,,1,,,
+157,Boreum,363948,,1,,,
+158,Berenike (Lower Egypt),373757,,1,,,
+159,Taucheira,373736,,1,,,
+160,Barke,373750,,1,,,
+162,Antipyrgos,716525,,1,,,
+163,Bassachitai?,716534,,1,,,
+164,Hadrianopolis,373824,,1,,,
+165,Erythron,373785,,1,,,
+166,Deir Abu Masis,756550,monastery,,,401,700
+169,Manqabad,,,,,,
+170,Monastery of St. Macarius at Cyprus,,,,,,
+171,Tell el-Amarna,149576487,settlement,,,401,650
+172,Beni Hassan,112509596,settlement,,,501,
+173,Dakhleh,776172,,,,,
+174,Trimouthis,776235,,,,,
+175,Dakleh Ain el Gedida,861854258,,,,,
+176,Deir abu Matta,667956220,monastery,,,401,600
+179,Tell Edfu,785974,monastery,1,1,501,1050
+181,Imbaba el Mansuriya ,776197,,,,,
+182,Karnak,"786017, 786050",settlement,,,301,1300
+183,Kharga,776210,,,,,
+184,El-Deir,776167,,,,,
+185,Hibis,776181,,,,,
+186,Kom Ombo,786079,,,,,
+187,Nag el Hagar,,,,,,
+188,Pharan,746792,,,,,
+189,Qasr Ibrim,798094,,,,,
+191,Western Thebes,786067,,,,,
+192,Deir el Bakhit,786014,monastery,,,576,925
+193,Monastery of St. Phoibammon,,monastery,,,576,800
+194,Monastery of Saint Isidorus Martyr at Deir el Medina,864388873,monastery,,,501,800
+195,Deir el Rumi,786067,monastery,,,401,700
+196,Western Thebes TT C3,786067,hermitage unit(s),,,701,800
+198,Monastery of Epiphanius,786067,monastery,,,576,750
+199,Western Thebes TT 29,786067,hermitage unit(s),,,601,750
+200,Monastery of Cyriacus,786067,monastery,,,501,900
+201,Monastery of St. Marcus,786067,monastery,,,501,750
+202,Valley of the Kings,384697574,,,,,
+204,Wadi Natrun Monastery of John the Little ,727232,,,,,
+205,Wadi Natrun Monastery of Baramus,727232,,,,,
+206,Wadi Natrun Monastery of the Syrians,727232,,,,,
+207,Wadi Natrun Monastery of Moses,727232,,,,,
+208,Wadi Natrun Monastery of St. Macarius,727232,monastery,,,330,1374
+209,Aphrodite,756532,,,,,
+210,Topos of Apa Phoibammon in the Rock,786067,settlement,,,501,800
+211,Philagris,737001,settlement,,,822,914
+212,Speos Artemidos,756647,hermitage unit(s),,,401,600
+213,Mallawi,756599,,,,,
+214,Deir el-Bersha,756554,monastery,,,401,1300
+215,Deir Abu Hennes,756549,monastery,,,301,800
+216,Deir Sumbat,,monastery,,,,
+217,Deir al-Dik,756557,monastery,,,501,700
+219,Western Thebes TT 157,786067,hermitage unit(s),,,401,790
+220,Western Thebes TT 95,786067,hermitage unit(s),,,501,800
+221,Western Thebes TT 99,786067,hermitage unit(s),,,501,800
+222,Western Thebes Winlock - Crum site 26,786014,hermitage unit(s),,,451,900
+223,Western Thebes Winlock - Crum site 27,786014,hermitage unit(s),,,451,900
+224,Western Thebes TT 97,786067,church,,,601,700
+225,Lykopolites nomòs,756594,,,,,
+226,Western Thebes TT 56,786067,hermitage unit(s),,,401,800
+227,Western Thebes Winlock - Crum sites 30-32 (site 33),786014,"fort, tower",,,401,800
+228,Western Thebes K 131 [K93.11] - K 130 [K93.12],786014,hermitage unit(s),,,476,925
+229,Western Thebes TT 72,786067,hermitage unit(s),,,401,800
+230,Western Thebes Winlock - Crum site 29,786067,"mine, quarry",,,401,800
+232,Western Thebes [K91.1],786067,,,,401,800
+233,Western Thebes TT 75,786067,hermitage unit(s),,,401,800
+235,Western Thebes TT 225,786067,undefined,,,401,800
+236,Western Thebes TT 82,786067,hermitage unit(s),,,401,800
+237,Western Thebes TT 35,786067,hermitage unit(s),,,401,800
+239,Western Thebes TT 96,786067,hermitage unit(s),,,401,800
+240,Western Thebes TT 160,786067,hermitage unit(s),,,401,800
+241,Western Thebes TT 158,786067,hermitage unit(s),,,401,800
+242,Western Thebes TT 282,786067,hermitage unit(s),,,401,800
+243,Oxyrhynchites nomòs,736982,,,,,
+244,Western Thebes TT 288 - 289,786067,hermitage unit(s),,,401,800
+245,Western Thebes TT 20,786067,,,,401,800
+248,Western Thebes TT 86,786067,hermitage unit(s),,,501,800
+250,"Western Thebes TT 85, TT 87",786067,hermitage unit(s),,,501,725
+251,Western Thebes TT 84,786067,hermitage unit(s),,,501,700
+252,Western Thebes TT 94,786067,hermitage unit(s),,,501,800
+253,Western Thebes TT 92,786067,hermitage unit(s),,,501,800
+254,Western Thebes TT 367,786067,hermitage unit(s),,,1101,1200
+255,Western Thebes TT 39,786067,hermitage unit(s),,,401,800
+256,Western Thebes TT 373,786067,,,,401,800
+257,Western Thebes K 85,786067,hermitage unit(s),,,501,800
+258,Western Thebes TT 49,786067,,,,401,800
+259,Western Thebes KV 1,384697574,hermitage unit(s),,,401,625
+260,Western Thebes TT 32,786067,hermitage unit(s),,,401,800
+261,Western Thebes TT 183,786067,,,,401,800
+262,Western Thebes KV 3,384697574,hermitage unit(s),,,401,800
+263,Western Thebes KV 4,384697574,hermitage unit(s),,,401,625
+264,Ghoran,736942,,,,,
+265,Western Thebes TT 240 (=MMA 517),786067,hermitage unit(s),,,401,800
+266,Western Thebes TT 312 (=MMA 509),786067,undefined,,,401,800
+267,Western Thebes TT 223,786067,hermitage unit(s),,,401,800
+268,Western Thebes KV 9,384697574,hermitage unit(s),,,401,625
+269,Western Thebes KV 2,384697574,church,,,401,625
+270,Western Thebes KV 5,384697574,hermitage unit(s),,,401,625
+271,Western Thebes KV 6,384697574,hermitage unit(s),,,401,625
+272,Western Thebes KV 8,384697574,hermitage unit(s),,,401,625
+273,Western Thebes KV 24,384697574,hermitage unit(s),,,601,625
+274,Giza,442962448,,,,1050,1350
+275,Western Thebes TT 310 (=MMA505),786067,hermitage unit(s),,,401,800
+277,Western Thebes Mortuary complex of Ramses II,963047542,settlement,,,401,800
+278,Western Thebes Mortuary Temple of Seti I,786067,settlement,,,401,800
+280,Northern Qurnet Murrai,786067,undefined,,,401,900
+281,Deir el-Shelwit,786067,monastery,,,401,
+283,Western Thebes Winlock - Crum site 6,786067,hermitage unit(s),,,501,700
+284,Western Thebes DeM 1437,864388873,shrine,,,501,800
+285,Western Thebes DeM 1438,864388873,hermitage unit(s),,,501,800
+286,Western Thebes Ramesside votive chapel,864388873,church,,,501,800
+287,el-Qalamun (Dakhla),776188,,,,,
+288,Western Thebes DeM 1450,864388873,tomb,,,501,800
+289,Western Thebes DeM 1449,864388873,hermitage unit(s),,,501,800
+290,Western Thebes DeM 1447,864388873,tomb,,,501,800
+291,Western Thebes QV 1,786067,hermitage unit(s),,,401,700
+292,Western Thebes DeM 1446,864388873,hermitage unit(s),,,501,800
+293,Western Thebes QV 2,786067,undefined,,,,
+294,Western Thebes QV 12,786067,undefined,,,,
+295,Western Thebes QV 22,786067,,,,,
+296,Western Thebes QV 21,786067,hermitage unit(s),,,401,700
+297,Western Thebes DeM 1451,864388873,hermitage unit(s),,,501,800
+298,Western Thebes QV 58,,,,,,
+299,Western Thebes QV 60,786067,shrine,,,401,800
+300,Western Thebes QV 73,786067,hermitage unit(s),,,401,700
+301,Western Thebes QV 79,786067,,,,,
+302,Western Thebes DeM 1346,864388873,tomb,,,501,800
+303,Western Thebes DeM 1006,864388873,tomb,,,501,800
+304,Western Thebes TT 336,864388873,tomb,,,501,800
+305,Western Thebes QV 44,786067,,,,401,700
+307,Western Thebes TT 46,786067,,,,401,800
+308,Western Thebes TT 52,786067,,,,401,800
+309,Western Thebes DeM 1147,864388873,,,,501,800
+310,Western Thebes DeM 1148,864388873,,,,501,800
+311,Western Thebes DeM 1150,864388873,,,,501,800
+312,Western Thebes DeM 1197,864388873,tomb,,,501,800
+313,Western Thebes DeM 2002 - DeM 2003 - DeM 2004,864388873,"catacomb, cemetery, necropolis",,,501,800
+314,Western Thebes TT 251,786067,,,,401,800
+316,Qasr el-Agouz,786067,church,,,551,900
+317,Western Thebes DeM 1401,864788873,hermitage unit(s),,,501,800
+319,Western Thebes DeM 1400,864388873,hermitage unit(s),,,501,800
+321,Western Thebes QV hamlet,786067,settlement,,,401,800
+323,Fayyum,736893,,,,,
+325,Koprithis,,settlement,1,,301,700
+326,Kom Sidi Uqba,,settlement,,,501,1000
+327,Magdola,736956,,,,856,900
+328,Leontopolis (Tell el-Yahudiya),727146,settlement,1,,300,
+329,Mendes,727156,settlement,,,301,700
+336,Deir el-Hammam,,monastery,,,501,900
+338,Taposiris Magna,7272741,,,,,
+339,Female Monastery at Atripe,756538,monastery,,,381,650
+345,Talit,737065,church,,,301,1100
+349,Samalut,737054,,,,,
+350,Tell el-Burashiya,,settlement,,,401,700
+351,Kom Yetwal wa Yuksur,,settlement,,,,
+355,Pishai,737015,,,,,
+358,Faras,795838,settlement,1,,,
+359,Dongola,865674318,settlement,1,,,
+362,Abdallah-n Irqi,,,,,,
+363,Wadi Halfa,,,,,,
+364,Arminna,795780,"fort, tower",,,,
+366,Naga el-Sheima,,,,,,
+367,Deir Mar Tumas,795886,monastery,,,1201,1300
+368,Upper Ansina,756518,monastery,,,401,800
+370,Helwan,,settlement,,,675,1300
+372,Deir el-Misaykra,,monastery,,,501,1200
+373,Deir el-Namus,,monastery,,,501,1200
+374,Deir el-Matmar,,monastery,,,501,700
+375,Karbone,,,,,,
+377,Kola el-Hamra,,hermitage unit(s),,,501,600
+380,Deir Mar Buqtur,,monastery,,,801,1400
+381,Deir el-Salib,,monastery,,,700,1225
+383,Deir el-Malek Mikhail (Qibli Qamula),,monastery,,,601,1400
+384,Deir Mar Girgis el-Magmaʿ,,monastery,,,501,1200
+385,Deir Abu Darag,,monastery,,,526,650
+386,'Ain el-Sabil,551781152,settlement,,,340,360
+387,Deir el-Azab,,monastery,,,,
+388,'Ain Saafa,,monastery,,,,
+389,Sur SR022.A,,church,,,901,1500
+390,Tell el-Abiad,,settlement,,,401,700
+391,Kom Abu Ali,,settlement,,,401,700
+392,Tell Abu el-Gudur,,settlement,,,401,700
+393,Kom el-Adda,,settlement,,,401,700
+394,Tell Abu el Sobh,,settlement,,,401,700
+395,Tell Abu Husa,,settlement,,,401,700
+396,Kom el Sheikh Ismail,,settlement,,,201,1000
+397,Tell Abu Kharufa,,settlement,,,401,700
+398,Tell Abu Qirdan,,settlement,,,401,700
+399,Tell Abu Shafei,,settlement,,,401,700
+400,Tell Abu Umran,,settlement,,,401,700
+401,Tell el-Adowel,,settlement,,,401,700
+402,Kom el-Ahmar,,settlement,,,401,700
+403,Kom el-Ahdar,,settlement,,,401,700
+404,Kom el-Ahmar 1,,settlement,,,401,700
+405,Kom el-Ahmar 2,,settlement,,,401,700
+406,Kom Alawi,,settlement,,,301,900
+407,Tell Amd,,settlement,,,401,700
+408,Tell Amya,,settlement,,,,
+409,Ezbet Aniz Ghubriyal,,settlement,,,401,700
+410,Kom el-Arab,,settlement,,,401,900
+411,Tell el-Arab,,settlement,,,401,700
+412,Kafr el-Ashiri,,settlement,,,401,700
+413,Deir Mustafa Kashef,776168,monastery,,,451,600
+414,El-Sheikh Sa'id,756547,monastery,,,301,1200
+415,Deir Abu Fana,756523,monastery,,,401,1300
+416,Deir al-Fakhuri,786059,monastery,,,701,1200
+417,Abu Sha'ar,766332,,,,,
+418,Deir el-Quseir,727252,monastery,,,801,1350
+419,Ain el-Hayz,716510,,,,,
+420,Gezira el-Faraun,,,,,,
+421,Hawwariya ,727153,,,,,
+422,Kalabsha,795868,,,,,
+423,Kom Namrud,736944,,,,,
+424,El-Tor,746803,,,,,
+425,El-Tod,786132,settlement,,,401,1300
+426,Bashmur,,,,,,
+427,Deir el-Shuhada,756561,monastery,,,,
+428,Ganub Qasr el-Agouz,716504,settlement,,,301,600
+429,Hagar Esna,786059,hermitage unit(s),,,550,630
+430,Deir Anba Bishoi,,,,,,
+431,Gebel Qarara,736924,settlement,,,301,900
+432,Kom el-Ahmar/Sharuna,,settlement,,,376,800
+435,Tell el-Bendariya,,settlement,,,401,700
+436,Monastery of St. Anthony at Famagusta,707485,monastery,,,1325,1350
+437,Bilgai,,,,,,
+438,Kom el-Bilshasha,,settlement,,,500,799
+439,Balhib,,settlement,,,401,800
+440,Tell ed-Deir,,settlement,,,401,700
+441,Dibqu,,settlement,1,,640,1199
+442,Kom ed-Dosha,,settlement,,,400,799
+443,Duweichat,,settlement,,,500,799
+444,Tell el-Ghuzz,,,,,,
+445,Tell el-Gindiya,,settlement,,,,
+446,Tell el-Ginn,,,,,300,499
+447,Tell el-Hilayla,,settlement,,,301,700
+448,Tell el-Kashif,,settlement,,,400,799
+449,Kom el-Kebir,,settlement,,,400,799
+450,El-Kifriya,,settlement,,,301,700
+451,Kom el-Matyur,,settlement,,,201,1000
+452,Tell Mirdas,,settlement,,,301,700
+453,Tell el-Riyad,,settlement,,,301,700
+454,Kom el-Roka,,settlement,,,501,725
+455,Natho,727168,settlement,1,,301,1100
+456,Kom Salih ,,settlement,,,601,700
+457,Sandala,,settlement,,,601,725
+458,Tell el-Shuhada,,settlement,,,301,700
+459,Kom el-Shuhada,,settlement,,,401,700
+460,Tell el-Shuwan,,settlement,,,301,700
+461,Kom Sidi Salem,,settlement,,,700,1100
+462,Tell Tanbul,727245,settlement,,,50,640
+463,Pempton,,monastery,,,350,725
+464,Ezbet Yasin Omar,,settlement,,,301,700
+465,Kom Abu Tahun,,settlement,,,601,700
+466,El-Alaqma,,settlement,,,301,700
+467,Kom Noweish,,settlement,,,301,700
+468,Deir el-Adhra,,monastery,,,601,700
+469,Serra East,795857,,,,,
+471,Buhen,795791,,,,,
+472,Deir Anba Bidaba,756553,,,,,
+474,Deir el-Azzam,,monastery,,,401,1425
+475,Deir el-Gebrawi,756576,,,,401,800
+476,Cyrene,373778,,1,,,
+477,Deir Abu Ishaq,,monastery,,,,
+486,Deir Anba Bula,746800,,,,426,1300
