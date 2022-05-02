@@ -1,3 +1,7 @@
+---
+tags:
+  - sql
+---
 # SQL: Structured Query Language
 Un linguaggio formale per gestire, dalla A alla Z, i database relazionali, compresi i **geo**database relazionali (GIS).
 

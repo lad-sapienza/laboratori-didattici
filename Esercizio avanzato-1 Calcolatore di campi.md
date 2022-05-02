@@ -1,3 +1,7 @@
+---
+tags:
+  - adv
+---
 # QGIS Avanzato #1: calcolatore di campi
 Data set:
 - Luoghi Pleiades del Lazio

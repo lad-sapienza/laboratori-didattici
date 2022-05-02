@@ -1,3 +1,7 @@
+---
+tags:
+  - other-formats
+---
 ## Caricare geometrie da lista di coordinate
 [[Accesso ai dati]] > Dataset: `other-formats`
 

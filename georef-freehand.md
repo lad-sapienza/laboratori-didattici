@@ -1,3 +1,8 @@
+---
+tags:
+  - georef
+  - raster
+---
 # Georiferire dati raster #3: Freehand raster georeferencer
 
 [[Accesso ai dati]] > Dataset: `geo-freehand`

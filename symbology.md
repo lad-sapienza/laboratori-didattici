@@ -1,3 +1,8 @@
+---
+tags:
+  - vectors
+  - symbology
+---
 # Simbologia
 Nello sviluppo degli utilimi anni di QGIS, la simbologia ha assunto un valore sempre più importante e ha sostituito nella maggiorparte dei casi l'utilizzo dei filtri.
 

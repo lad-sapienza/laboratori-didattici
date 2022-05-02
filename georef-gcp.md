@@ -1,3 +1,9 @@
+---
+tags:
+  - georef
+  - raster
+---
+
 # Georiferire dati raster con punti di controllo a terra (GCP)
 
 [[Accesso ai dati]] > Dataset: `georef-gcp`

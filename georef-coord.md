@@ -1,3 +1,8 @@
+---
+tags:
+  - georef
+  - raster
+---
 # Georiferire dati raster #1: coordinate
 [[Accesso ai dati]] > Dataset: `georef-coord`
 
@@ -10,7 +15,6 @@ Contenuto:
 - ministry-of-finance/
 	- 10285081.jp2
 	- 10285082.jp2
-- index.md
 ```
 
 ## Dataset  di esempio #1: Cairo City Map 1959

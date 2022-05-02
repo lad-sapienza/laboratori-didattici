@@ -1,3 +1,7 @@
+---
+tags:
+  - other-formats
+---
 ## Caricamento GeoJSON remoto
 [[Accesso ai dati]] > Dataset: `other-formats`
 

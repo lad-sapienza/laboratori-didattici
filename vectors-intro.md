@@ -1,3 +1,7 @@
+---
+tags:
+  - vectors
+---
 # Gestione vettori
 A differenza di altri ambienti software che gestiscono grafica vettoriale, i GIS si caratterizzano per la forte associazione tra geometrie e dati testuali, organizzati in formato tabellare, associati tra loro.
 

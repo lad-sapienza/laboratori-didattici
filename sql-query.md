@@ -1,3 +1,7 @@
+---
+tags:
+  - sql
+---
 # Interrogazioni SQL in QGIS
 
 Il linguaggio SQL è usato in QGIS per analizzare i dati e per creare vari tematismi. In particolare viene usato per creare `filtri` e per la gestione avanzata della simbologia.

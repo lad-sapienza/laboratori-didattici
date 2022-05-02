@@ -1,3 +1,7 @@
+---
+tags:
+  - raster
+---
 ## Formati raster diffusi nell'ambito GIS
 
 ### Portable Network Graphics (PNG)

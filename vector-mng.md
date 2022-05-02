@@ -1,3 +1,7 @@
+---
+tags:
+  - vectors
+---
 # Gestione vettori: creazione, modifica.
 [[Accesso ai dati]] > Dataset: `vector-mng`
 

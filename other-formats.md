@@ -1,3 +1,7 @@
+---
+tags:
+  - other-formats
+---
 # Altri formati di input. Alcuni esempi
 È impossibile elencare tutti i formati possibili che una piattaforma GIS può gestire e in questo incontro verranno portati solo alcuni, pochi, esempi significativi utili nel lavoro archeologico.
 

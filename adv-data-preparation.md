@@ -1,3 +1,7 @@
+---
+tags:
+  - adv
+---
 # GIS modulo avanzato: preparazione dei dati
 [[Accesso ai dati]] > Dataset `adv`
 

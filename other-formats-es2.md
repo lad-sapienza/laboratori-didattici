@@ -1,3 +1,7 @@
+---
+tags:
+  - other-formats
+---
 ## Caricare database da file
 [[Accesso ai dati]] > Dataset: `other-formats`
 

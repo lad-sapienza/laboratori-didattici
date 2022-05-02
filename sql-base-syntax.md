@@ -1,3 +1,7 @@
+---
+tags:
+  - sql
+---
 # Sintassi SQL di base (DQL, interrogazione)
 
 ## 1. Struttura base

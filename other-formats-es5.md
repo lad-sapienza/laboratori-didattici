@@ -1,3 +1,7 @@
+---
+tags:
+  - other-formats
+---
 ## Caricamento Tiles XYX
 
 [[Accesso ai dati]] > Dataset: `other-formats`

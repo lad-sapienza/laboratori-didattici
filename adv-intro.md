@@ -1,3 +1,7 @@
+---
+tags:
+  - adv
+---
 # GIS modulo avanzato: introduzione
 In questo modulo avanzato verrà preso in considerazione un caso di studio concreto, una domnda di tipo archeologico relativa ad un ambito cronologico e geografico ben preciso.
 
