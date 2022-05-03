@@ -1,5 +1,9 @@
 # Indice generale
 
+Appunti per il laboratorio di archeologia digitale
+***
+
+
 ### 1. GIS base per l'Archeologia
 - [Introduzione a QGIS](Introduzione%20a%20QGIS)
 - [[raster|Dati raster: principali formati]]
@@ -31,5 +35,5 @@
 ### 3. GIS avanzato per l'Archeologia
 - [[adv-intro|Introduzione]]
 	- [[adv-data-preparation|Preparazione dei dati]]
-	- [[Esercizio avanzato-1 Calcolatore di campi]]
+	- [[adv-field-calculator]]
 	- [[Esercizio avanzato-2 Analisi a criteri multipli]]

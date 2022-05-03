@@ -6,7 +6,7 @@ tags:
 Data set:
 - Luoghi Pleiades del Lazio
 
-## Dividere il campo `descrizione` in layer `siti`, in modo da separare la `tipologia` da `cronologia`, a sua volta `da`... `a`...
+## Dividere il campo `snippet` in layer `siti`, in modo da separare la `tipologia` da `cronologia`, a sua volta `da`... `a`...
 
 1. Calcolatore di campo
 	1. Crea nuovo campo: `tipo`, testuale, lunghezza 100
@@ -57,3 +57,7 @@ if(
 )
 ```
 5. Cancellare i campi  `descrizione` e `cronologia`
+6. Cancellare tutti i siti che non sono insediamenti.
+
+[[adv-data-preparation| < Passaggio precedente]]
+[[Esercizio avanzato-2 Analisi a criteri multipli|> Passaggio successivo: analisi a criteri multipli]]

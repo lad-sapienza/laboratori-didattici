@@ -18,7 +18,6 @@ Contenuto dataset:
 2. Aprire un progetto nuovo di QGIS
 	1. Aggiungere Bing Satellite (`Web > QuickMapServices > Bing > Bing Satellite`)
 	2. Aggiungere il raster `24-Le-Caire-Belbeis.tif`
-3. Creare un nuovo vettore (geopackage) per vettorialzzare i fiumi
-4. Aggiungere nello stesso geopackage di prima un tema per i villaggi4. Aggiungere nello stesso geopackage di prima un tema per i villaggi
-5. Aggiungere nello stesso geopackage di prima un tema per le strade
-6. Inserire / modificare / cancellare geometrie e attributi
+3. Creare un nuovo vettore (geopackage) per vettorialzzare i villaggi
+4. Aggiungere nello stesso geopackage di prima un tema per i fiumi
+5. Inserire / modificare / cancellare geometrie e attributi

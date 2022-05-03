@@ -23,7 +23,7 @@ Per calcolare queste variabili abbiamo dunque bisogno di:
 1. **una rete stradale di età romana imperiale**: elaborata dal [Ancient World Mapping Center](http://awmc.unc.edu/wordpress/) e liberamente disponibile in formato GIS, all'indirizzo http://awmc.unc.edu/awmc/map_data/shapefiles/ba_roads/
 2. **Le estensioni interne di acqua (laghi)** sono disponibili sempre a cura del [Ancient World Mapping Center](http://awmc.unc.edu/wordpress/), in formato GIS, all'indirizzo: http://awmc.unc.edu/awmc/map_data/shapefiles/physical_data/inlandwater/
 3. **La rete fluviale** è stata scaricata da https://www.diva-gis.org/gdata. Questo dato non è riferito specificatamente all'età romana, quindi al fine di rendere più corretta questa analisi sarebbe necessario un ulteriore lavoro su questo dato.
-5. **La rete di insediamenti noti di età romana imperiale** è stata invece scaricata da [Pleiades](https://pleiades.stoa.org/), all'indirizzo: [http://atlantides.org/downloads/pleiades/dumps/pleiades-places-latest.csv.gz](http://atlantides.org/downloads/pleiades/dumps/pleiades-places-latest.csv.gz)
+5. **La rete di insediamenti noti di età romana imperiale** è stata invece scaricata da [Pleiades](https://pleiades.stoa.org/), all'indirizzo: [http://atlantides.org/downloads/pleiades/kml/pleiades-latest.kmz](http://atlantides.org/downloads/pleiades/kml/pleiades-latest.kmz)
 6. Infine, il modello digitale del terreno (DEM) con risoluzione di 30m è stato scaricato da [https://opentopography.org/](https://opentopography.org/), attraverso il plugin di `QGIS OpenTopography DEM Downloader`
 
 [[Accesso ai dati]] > Dataset `adv`

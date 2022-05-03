@@ -58,3 +58,7 @@ Contenuto:
 - Sistema di Riferimento: **Egypt 1907  (EPSG:4229)**
 - Info: https://epsg.io/4229
 - Fonte: David Rumsey Historical Map Collection
+
+
+DD MM SS.SS => DD.DD
+es: 30° 30' 00.00" == 30.5
