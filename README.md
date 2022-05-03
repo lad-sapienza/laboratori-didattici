@@ -36,4 +36,4 @@ Appunti per il laboratorio di archeologia digitale
 - [[adv-intro|Introduzione]]
 	- [[adv-data-preparation|Preparazione dei dati]]
 	- [[adv-field-calculator]]
-	- [[Esercizio avanzato-2 Analisi a criteri multipli]]
+	- [[adv-multi-criteria]]

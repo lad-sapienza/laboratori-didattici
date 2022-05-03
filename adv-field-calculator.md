@@ -60,4 +60,4 @@ if(
 6. Cancellare tutti i siti che non sono insediamenti.
 
 [[adv-data-preparation| < Passaggio precedente]]
-[[Esercizio avanzato-2 Analisi a criteri multipli|> Passaggio successivo: analisi a criteri multipli]]
+[[adv-multi-criteria|> Passaggio successivo: analisi a criteri multipli]]
