@@ -5,7 +5,7 @@ Appunti per il laboratorio di archeologia digitale
 
 
 ### 1. GIS base per l'Archeologia
-- [Introduzione a QGIS](Introduzione%20a%20QGIS)
+- [[QGIS-intro|Introduzione a QGIS]]
 - [[raster|Dati raster: principali formati]]
 - Georiferire dati raster		
 	- [[georef-coord|Georiferire con coordinate]]
