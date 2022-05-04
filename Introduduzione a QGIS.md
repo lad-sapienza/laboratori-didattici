@@ -27,7 +27,7 @@ https://docs.qgis.org/3.22/it/docs/user_manual/index.html
 https://docs.qgis.org/3.22/it/docs/user_manual/preamble/features.html
 
 ## Interfaccia utente
-![[gui.png]]
+![img/gui.png](img/gui.png)
 
 1: Menu principale
 2: Toolbar
@@ -35,8 +35,9 @@ https://docs.qgis.org/3.22/it/docs/user_manual/preamble/features.html
 4: Vista mappa
 5: Barra di stato
 
-## Plugin
-`Plugins > Gestisci e installa plugin...`
-Installare:
-- Freehand raster georeferencer
-- QuickMapServices
+## Plugin da installare per i lavoro del laboratorio
+1. Accedere alla gestione dei plugin attraverso il menu principale:
+   `Plugins > Gestisci e installa plugin...`
+2. Cercare installare ed eventualmente attivare i seguenti plugin:
+	- Freehand raster georeferencer
+	- QuickMapServices
