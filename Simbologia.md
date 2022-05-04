@@ -24,7 +24,7 @@ Contenuto dataset:
 
 ## Esercizio 2: simbologia avanzata
 Modificare la simbologia del layer `vettori - places` come segue:
-- `rosso` : Capitali di nomos poi diventati sedi episcopali
+- `rosso`: Capitali di nomos poi diventati sedi episcopali
 - `verde`: Capitali di nomos NON diventati sedi episcopali
 - `blu`: Sedi episcopali che non erano prima capitrali di nomos
-I luoghi che non corrispondono a nessuno di questi requisiti non dovrannoessere visualizzati
+I luoghi che non corrispondono a nessuno di questi requisiti non dovranno essere visualizzati

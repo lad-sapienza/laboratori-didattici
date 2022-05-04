@@ -14,7 +14,7 @@ Ogni asserzione ha una struttura tripartita:   `nome campo` + `operatore` + `val
 
 
 ## 2. Composizione delle asserzioni
-È possibile comporre interrogazioni complesse unendo insieme più di una asserzione semplice con gli operatori `AND` o `OR`. `AND` è più esclusivo (più filtri = meno risultati), mentre or è più permissivo (meno filtri = più risultati).
+È possibile comporre interrogazioni complesse unendo insieme più di una asserzione semplice con gli operatori `AND` o `OR`. `AND` è più esclusivo (più filtri = meno risultati), mentre `OR` è più permissivo (meno filtri = più risultati).
 
 **Esempio**:
 ```sql
@@ -92,7 +92,7 @@ Permette do fornire una lista di valori per il confronto ed è sufficiente un so
 ```sql
 "typology" IN ("settlement", "settlement-modern")
 ```
-È quindi equivalente (più sintetico) di una serie di `=/OR`:
+È quindi equivalente (più sintetico) di una serie di `=OR`:
 ```sql
 "typology" = "settlement" OR  "typology" = "settlement-modern"
 ```

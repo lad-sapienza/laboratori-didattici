@@ -27,12 +27,16 @@ Contenuto del dataset:
 
 ## Filtro 1: tutti i siti che sono stati capitale di _nomós_
 ```sql
-# TODO
+"isnomoscapital" = '1'
 ```
 
 ## Filtro 2: tutti i siti che sono stati capitale di _nomós_ e la cui tipologia è `settlement`
 ```sql
-# TODO
+"typology" = 'settlement'
+
+AND
+
+"isnomoscapital" = '1'
 ```
 
 ## Filtro 3: tutti i `settlement` e `settlement-modern` che sono stati capitale di _nomos_ 
@@ -40,4 +44,36 @@ Contenuto del dataset:
 # TODO
 ```
 
+# Filtro 4: siti attivi  nel V sec. d.C.
+```sql
+"datefrom" < 500 AND "dateto" > 500
+```
+
+
+## Riassunto: tre query diverse che danno lo stesso risultato:
+```sql
+"isnomoscapital" = '1'
+ AND 
+ "typology" LIKE 'setlement%'
+```
+
+e
+
+```sql
+"isnomoscapital" = '1'
+ AND 
+ "typology" IN ('setlement', 'setlement-modern')
+```
+
+e
+
+```sql
+"isnomoscapital" = '1'
+ AND 
+ (
+	 "typology"  = 'setlement'
+	 OR
+	 "typology"  = 'setlement-modern'
+ )
+```
 
