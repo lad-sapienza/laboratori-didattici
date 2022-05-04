@@ -59,5 +59,5 @@ if(
 5. Cancellare i campi  `descrizione` e `cronologia`
 6. Cancellare tutti i siti che non sono insediamenti.
 
-[[adv-data-preparation| < Passaggio precedente]]
-[[adv-multi-criteria|> Passaggio successivo: analisi a criteri multipli]]
+[[GIS avanzato - Preparazione dei dati| < Passaggio precedente]]
+[[Analisi a criteri multipli|> Passaggio successivo: analisi a criteri multipli]]

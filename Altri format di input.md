@@ -24,9 +24,9 @@ Contenuto dataset:
 ---
 
 ## Esercizi
-- [[other-formats-es1|Esercizio 1: Caricare geometrie da lista di coordinate]]
-- [[other-formats-es2|Esercizio 2: Caricare database da file]]
-- [[other-formats-es3|Esercizio 3: JOIN]]
-- [[other-formats-es4|Esercizio 4: Caricamento GeoJSON remoto]]
-- [[other-formats-es5|Esercizio 5: Caricamento Tiles XYX]]
-- [[other-formats-es6|Esercizio 6: Caricamento Tiles vettoriali]]
+- [[Caricare geometrie da lista di coordinate|Esercizio 1: Caricare geometrie da lista di coordinate]]
+- [[Caricare database da file|Esercizio 2: Caricare database da file]]
+- [[JOIN|Esercizio 3: JOIN]]
+- [[Caricamento GeoJSON remoto|Esercizio 4: Caricamento GeoJSON remoto]]
+- [[Caricamento Tiles XYX|Esercizio 5: Caricamento Tiles XYX]]
+- [[Caricamento Tiles vettoriali|Esercizio 6: Caricamento Tiles vettoriali]]

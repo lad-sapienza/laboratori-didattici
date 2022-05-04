@@ -1,4 +1,4 @@
-# QGIS
+# Introduzione a QGIS
 > QGIS è un Sistema di Informazione Geografica Open Source facile da usare, rilasciato sotto la GNU General Public License. QGIS è un progetto ufficiale della Open Source Geospatial Foundation (OSGeo). Funziona su Linux, Unix, Mac OSX, Windows e Android e supporta numerosi formati vettoriali, raster, database e funzionalità.
 
 - Web: [https://www.qgis.org/](https://www.qgis.org/en/site/)

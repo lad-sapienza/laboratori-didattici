@@ -12,5 +12,5 @@ tags:
 5. Recuperare da `awmc/inlandwater/ba_roads` solo le polilinee che si trovano entro gli attuali confini della regione Lazio
 
 
-[[adv-intro|< Passaggio precedente]]
-[[adv-field-calculator|> Passaggio successivo: calcolatore di campi]]
+[[GIS Avanzato - Introduzione|< Passaggio precedente]]
+[[Calcolatore dei campi|> Passaggio successivo: calcolatore di campi]]

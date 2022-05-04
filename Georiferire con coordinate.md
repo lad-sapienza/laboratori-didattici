@@ -3,7 +3,7 @@ tags:
   - georef
   - raster
 ---
-# Georiferire dati raster #1: coordinate
+# Georiferire dati raster con coordinate
 [[Accesso ai dati]] > Dataset: `georef-coord`
 
 Contenuto:

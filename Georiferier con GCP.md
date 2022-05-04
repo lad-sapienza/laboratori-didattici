@@ -15,6 +15,4 @@ Contenuto:
 - Bookmark.xml
 ```
 
-## Importare un segnalibro
-1. Aprire il pannello Broswer: `Visualizza > Pannelli > Pannello Browser`
-2. Click destro su `Pannelli spaziali > Importa`
+[[Importare un segnalibro spaziale]]

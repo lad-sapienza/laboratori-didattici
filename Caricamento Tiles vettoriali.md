@@ -20,4 +20,4 @@ oppure
 10. Selezionare la risorsa dal menu a tendine e poi click su `Aggiungi`
 11. Click su `Close`
 
-**A differenza dei tiles raster, la simbologia di quelli vettoriali può essere modificata**
+**A differenza dei tiles raster, la [[Simbologia]] di quelli vettoriali può essere modificata**

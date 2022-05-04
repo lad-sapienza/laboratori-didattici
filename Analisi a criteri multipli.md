@@ -21,5 +21,5 @@ tags:
 	3. Riclassificare **insediamenti**
 5. Creare il raster si analisi.
 
-[[adv-field-calculator| < Passaggio precedente]]
+[[Calcolatore dei campi| < Passaggio precedente]]
 

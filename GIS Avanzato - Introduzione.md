@@ -28,4 +28,4 @@ Per calcolare queste variabili abbiamo dunque bisogno di:
 
 [[Accesso ai dati]] > Dataset `adv`
 
-Il prossimo passaggio riguarda la [[adv-data-preparation|preparazione dei dati]].
+Il prossimo passaggio riguarda la [[GIS avanzato - Preparazione dei dati|preparazione dei dati]].

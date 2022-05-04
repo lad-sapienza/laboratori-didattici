@@ -3,7 +3,7 @@ tags:
   - georef
   - raster
 ---
-# Georiferire dati raster #3: Freehand raster georeferencer
+# Georiferire dati raster con Freehand raster georeferencer
 
 [[Accesso ai dati]] > Dataset: `geo-freehand`
 
@@ -18,9 +18,7 @@ Contenuto:
 	2. Cercare: `Freehand`
 	3. Selezionare e installare.
 2. Caricare i segnalibri in `Bookmark.xml`
-	1. `Visualizza` > `Pannelli` > `Pannello Gestore Segnalibri Spaziali`
-	2. Click su bottone condividi
-	3. Importa
+	[[Importare un segnalibro spaziale]]
 3. Caricare mappa Bing
 	1. `Web` > `Quickmapservices` > `Bing` > `Bing satellite`
 4. Avviare il plugin da
