@@ -26,5 +26,4 @@ Contenuto dataset:
 Modificare la simbologia del layer `vettori - places` come segue:
 - `rosso`: Capitali di nomos poi diventati sedi episcopali
 - `verde`: Capitali di nomos NON diventati sedi episcopali
-- `blu`: Sedi episcopali che non erano prima capitrali di nomos
 I luoghi che non corrispondono a nessuno di questi requisiti non dovranno essere visualizzati
