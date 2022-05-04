@@ -59,6 +59,10 @@ Contenuto:
 - Info: https://epsg.io/4229
 - Fonte: David Rumsey Historical Map Collection
 
-
-DD MM SS.SS => DD.DD
-es: 30° 30' 00.00" == 30.5
+## Diversi modi di definire le coordinate geografiche
+- **DD MM SS.SS**: Gradi Minuti Secondi.decimali di secondi (Degrees Minutes Seconds) usa gli spazi per separare l'indicazione dei gradi, minuti e secondi, usando un sistema sessagesimale (base 60) di conteggio: 1°= 60'; 1'=60". Ulteriore precisione, sotto al secondo, è possibile definirla fornendo anche i decimali di secondo, usando un sistema decimale (base 10)
+- **DD.DD**: Gradi.decimali di grado mantiene il grado come unità di misura, ma converte il sistema sessagesimale in un sistema decimale, convertendo minuti e secondi. La formula del calcolo è piuttosto semplice:
+	`DD MM SS.ss` = `DD+(MM/60)+(SS.ss/360)`
+	Es.:
+		- **30° 30' 00"** = 30 + (30/60) + (0/3600) = **30,5°**
+		- **30° 45' 30"** = 30 + (40/60) + (30/3600) = **30,675°**

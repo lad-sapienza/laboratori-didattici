@@ -29,10 +29,10 @@ https://docs.qgis.org/3.22/it/docs/user_manual/preamble/features.html
 ## Interfaccia utente
 ![img/gui.png](img/gui.png)
 
-1: Menu principale
-2: Toolbar
-3: Pannelli
-4: Vista mappa
+1: Menu principale  
+2: Toolbar  
+3: Pannelli  
+4: Vista mappa  
 5: Barra di stato
 
 ## Plugin da installare per i lavoro del laboratorio
