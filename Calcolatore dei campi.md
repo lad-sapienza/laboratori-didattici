@@ -2,7 +2,7 @@
 tags:
   - adv
 ---
-# QGIS Avanzato #1: calcolatore di campi
+# Calcolatore di campi
 Data set:
 - Luoghi Pleiades del Lazio
 
@@ -11,9 +11,11 @@ Data set:
 1. Calcolatore di campo
 	1. Crea nuovo campo: `tipo`, testuale, lunghezza 100
 	2. In espressione inserire `string_to_array(  "descrizione" , ';')[0]`
+	![[Pasted image 20220509122030.png]]
 2. Calcolatore di campo
 	1. Crea nuovo campo: `cronologia`, testuale, lunghezza 100
 	2. In espressione inserire `string_to_array(  "descrizione" , ';')[1]`
+	![[Pasted image 20220509122335.png]]
 3. Calcolatore di campo
 	1. Crea nuovo campo: `cronoda`, integer, lunghezza 50
 	2. In espressione inserire :

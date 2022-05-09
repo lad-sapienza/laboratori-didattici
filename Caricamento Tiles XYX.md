@@ -2,7 +2,7 @@
 tags:
   - other-formats
 ---
-## Caricamento Tiles XYX
+## Caricamento Tiles XYZ
 
 [[Accesso ai dati]] > Dataset: `other-formats`
 
@@ -20,5 +20,5 @@ oppure
 7. Inserire un nome significatico per la risorsa, es. `Delta egiziano di Arrowsmith`
 8. Incollare in URL l'indirizzo copiato dal sito di PAThs: `https://swift.cloud.garr.it/swift/v1/arrowsmith-1807/{z}/{x}/{y}.png`
 9. Click su `OK`
-10. Selezionare la risorsa dal menu a tendine epoi click su `Aggiungi`
+10. Selezionare la risorsa dal menu a tendine e poi click su `Aggiungi`
 11. Click su `Close`

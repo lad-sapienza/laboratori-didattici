@@ -19,5 +19,5 @@ Per questo esercizio useremo i dati della cartografia napoleonica d'Egitto, pubb
 9. Ripetere i passaggi 2-8 anche per:
 	1. `data/hydrography/hydrography_pll.geojson`
 	2. `data/hydrography/bridges.geojson`
-	3.`data/hydrography/coastline.geojson`
+	3. `data/hydrography/coastline.geojson`
 

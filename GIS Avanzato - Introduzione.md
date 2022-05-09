@@ -13,11 +13,11 @@ Per rispondere in maniera concreta, per reperire i dati necessari a questo tipo 
 ### Limite geografico
 Il limite geografico è l'informazione più semplice da capire e anche il dato più semplice da reperire. La **Regione del Lazio** ha dei confini amministrativi ben definiti che è semplice reperire online in formato GIS, in particolare i dati sono stati scaricati da: [https://www.diva-gis.org/gdata](https://www.diva-gis.org/gdata)
 ### Caratteristiche ottimali per l'insediamento: requisiti, dati, parametri
-Questo è un elementomolto più difficile da definire e valutare e certamente molto più soggettivo.
+Questo è un elemento molto più difficile da definire e valutare e certamente molto più soggettivo.
 
 Ai fini di questo esercizio, solo alcuni elementi verranno presi in esame, con parametri decisi a tavolino, ma che possono essere oggetto di discussione. Nello specifico, si ritengono particolarmente interessanti i seguenti elementi
 1. vicinanza alla rete viaria
-2. non immediata vicinanze alla rete idrica, che da sempre è causa di rischio, ma neppure troppo distante, vosto che l'acqua è una risorsa costosa da trasportare
+2. non immediata vicinanze alla rete idrica, che da sempre è causa di rischio, ma neppure troppo distante, visto che l'acqua è una risorsa costosa da trasportare
 3. non eccessiva vicinanza a insediamenti esistenti, che “esauriscono” il potenziale dell'area
 Per calcolare queste variabili abbiamo dunque bisogno di:
 1. **una rete stradale di età romana imperiale**: elaborata dal [Ancient World Mapping Center](http://awmc.unc.edu/wordpress/) e liberamente disponibile in formato GIS, all'indirizzo http://awmc.unc.edu/awmc/map_data/shapefiles/ba_roads/

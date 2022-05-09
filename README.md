@@ -30,6 +30,7 @@ Appunti per il laboratorio di archeologia digitale
 - Introduzione alle banche dati relazionali
 - [[ERD - Progettazione di una banca dati relazionale]]
 - [Introduzione a Bradypus](https://lad.saras.uniroma1.it/ricerca/bradypus-cloud-databases/)
+- [Guida online](https://docs.bdus.cloud/)
 - [Realizazione di una banca dati relazionale con Bradypus](https://bdus.cloud/edu/db/)
 
 ### 3. GIS avanzato per l'Archeologia
