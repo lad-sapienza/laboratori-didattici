@@ -4,7 +4,7 @@ tags:
 ---
 ## Caricamento Tiles XYZ
 
-[[Accesso ai dati]] > Dataset: `other-formats`
+[Accesso ai dati](Accesso%20ai%20dati.md) > Dataset: `other-formats`
 
 Per questo esercizio useremo i dati della cartografia napoleonica d'Egitto, pubblicati a cura del [LAD](https://lad.saras.uniroma1.it) sul portale di documentazione di PAThs, all'indirizzo: https://docs.paths-erc.eu/data/
 

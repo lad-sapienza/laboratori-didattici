@@ -2,113 +2,84 @@
 tags:
   - adv
 ---
-# Analisi a criteri multipli
+# GIS: modulo avanzato: Analisi a criteri multipli
 
-1. Rasterizzare dati vettoriali
-	1. Rasterizzare il layer dei **confini**
-	2. Rasterizzare il layer dei **fiumi**
-	2. Rasterizzare il layer dei **inseldiamenti**
-	3. Rasterizzare il layer dei **laghi**
-	4. Rasterizzare il layer dei **strade**
-2. Unire **laghi** e **fiumi** in un raster chiamato **idrografia**
-3. Analisi di prossimità
-	1. Analisi di prossimità per **idrografia**
-	2. Analisi di prossimità per **strade**
-	3. Analisi di prossimità per **insediamenti**
-4. Riclassificare le analisi di prossimità
-	1. Riclassificare **idrografia**
-	2. Riclassificare **strade**
-	3. Riclassificare **insediamenti**
-5. Creare il raster si analisi.
+> Guida non archeologica disponibile a  
+> [http://www.qgistutorials.com/it/docs/3/multi_criteria_overlay.html](http://www.qgistutorials.com/it/docs/3/multi_criteria_overlay.html)
 
-[[Calcolatore dei campi| < Passaggio precedente]]
 
-## Guida modulo GIS Avanzato - Multi criteria analysis (raster)
+1. Aprire il progetto QGIS, come si è venuto a creare dal [passaggioprecedente](Calcolatore%20dei%20campi.md)
+2. Raggruppare i livelli vettoriali (`fiumi-lazio`, `strade-lazio`, `acque-interne-lazio` e `insediamenti-imperiali`) in un gruppo chiamato `Step-1`
+3. Rasterizzare i vettori del gruppo `Step-1`
+	1. Menu `Processing` > `Strumenti`
+    2. Nel panello che siapre cercare e pprire lo strumento `Rasterize (da vettore a raster)`
+	    1. In `Parametri` selezionare `strade-lazio` come `Layer in ingresso`
+    	2. Impostare come `valore fissato da scrivere` a `1,000000`
+	    3. Impostare `unità di misura del raster in uscita` come `unità georeferenziate`
+    	4. Impostare `larghezza/risoluzione orizzontale` a `15,000000`
+	    5. Impostare `altezza/risoluzione verticale` a `15,000000`
+	    6. Impostare `estensione risultato [opzionale]` come `confine-lazio`
+	    7. In `attribuisci un determinato valore nullo alle bande in uscita` impostare `non impostato` cancellando il contenuto della casella che di default (è `0,000000`)
+    	8. In `rasterizzato` salvare il nuovo file come `strade-raster`
+    	![Pasted image 20220509153644](img/Pasted%20image%2020220509153644.png)
+		![Pasted image 20220509153653](img/Pasted%20image%2020220509153653.png)
+    3. Ripetere l'operazione sopra per gli altri layer: `fiumi-lazio`,  `acque-interne-lazio` e `insediamenti-imperiali` , utilizzando gli stessi parametri. Per quest'ultimo cambiare la risoluzione a 30x30m.
+    4. Creare un gruppo di layer chiamato `Step-2` e includervi tutti i raster creati in questo passaggio
+3. Creare un unico raster per l'idrografia
+    1. Cercare e aprire nel panello processing `Calcolatore raster` (sotto `GDAL` > `Raster miscellanea`)
+    2. Inserire l'espressione: `"acque-interne-raster@1" + "fiumi-raster@1"`
+    3. Utilizzare `confine-raster` come `layer di riferimento`
+    4. Salvare il file come `idrografia-3-valori`
+    ![Pasted image 20220509155655](img/Pasted%20image%2020220509155655.png)
+	Il raster in uscita e cioè `raster_idrografia` avrà valore 1 nei pixel dove è presente un corso d'acqua.  
+	**Importante**: le aree in cui si trovano sia corsi d'acqua (fiumi) che laghi avranno invece valore 2. Per correggere questo errore e riportare tutte le aree con laghi e fiumi al valore 1 seguire il prossimo step:
+4. Eliminare valore 2 e sostituirlo con 1 nel layer `idrografia-3-valori`
+    1. Aprire nuovamente il `Calcolatore raster`
+    2. Utilizzare la seguente espressione: `"idrografia-3-valori@1" > 0`
+    3. Salvare il file come `idrografia-raster`
+5. Creare un gruppo di layer chiamato `Step-3` e includervi tutti i raster creati in questo passaggio
+6. Analisi di prossimità (distanza raster)
+    1. Aprire lo strumento `Prossimità (distanza raster)` (sotto `GDAL` > `Analisi raster`)
+    2. In `layer di ingresso` selezionare `strade-raster`
+    3. Come `unità di distanza` impostare `unità georeferenziate`
+    4. Impostare come `massima distanza che deve essere generata` il valore `6000` (= 6km)
+    5. Impostare `valore Nodata` a `non impostato`
+    6. Salvare il file come `strade-prossimita`
+    ![Pasted image 20220509161130](img/Pasted%20image%2020220509161130.png)
+    7. Aprire il pannello dello `stile dei layer`
+    8. In `gradiente colore` impostare come valore massimo (max) `6000`
+    9. Ripetere le stesse operazioni per i layer `idrografia-raster` e `insediamenti-raster`
+7. Ricalssificazione strade
+    1. Aprire il `calcolatore dei raster`
+    2. Inserire la seguente espressione: 
+	```
+    100*("strade-prossimita@1"<=1000) + 50*("strade-prossimita@1">1000)*("strade-prossimita@1"<=5000) + 10*("strade-prossimita@1">5000)
+	```
+	3. Salvare il file come `strade-riclassificato`
+8. Riclassificazione acque
+    1. Aprire il `calcolatore dei raster`
+    2. Inserire la seguente espressione: 
+	```
+    100*("idrografia-prossimita@1">5000) + 50*("idrografia-prossimita@1">1000) * ("idrografia-prossimita@1"<=5000) + 10*("idrografia-prossimita@1"<1000)
+	```
+    3. Salvare il file come `idrografia-riclassificato`
+9. Riclassificare gli insediamenti
+    1. Aprire il `calcolatore dei raster`
+    2. Inserire la seguente espressione: 
+	```
+    100*("insediamenti-prossimita@1">5000) + 50*("insediamenti-prossimita@1">1000) * ("insediamenti-prossimita@1"<=5000) + 10*("insediamenti-prossimita@1"<1000)
+	```
+    3. Salvare il file come `insediamenti-riclassificato`
+10. Analisi finale
+    1. Aprire il `calcolatore dei raster`
+    2. Inserire la seguente espressione:
+	```
+    ("strade-riclassificato@1" + "idrografia-riclassificato@1")*("insediamenti-riclassificato@1"  !=  1 ) * "confine-raster@1"
+	```
+    3. salvare il file come `overlay`
+11. Impostare simbologia `banda singola falso colore`
+    - Aprire le proprietà del layer
+    - In tipo di visualizzazione impostare `banda singola falso colore`
+    - Classificare
 
-1. caricare su QGIS `lazio_dati`
-
-2. Rasterizzare i vettori presenti in `lazio_dati`
-
-    - Aprire lo strumento `Rasterize (da vettore a raster)`
-    - In `Parametri` selezionare `strade` come `Layer in ingresso`
-    - impostare come `valore fissato da scrivere` a `1,000000`
-    - impostare `unità di misura del raster in uscita` come `unità georeferenziate`
-    - impostare `larghezza/risoluzione orizzontale` a `15,000000`
-    - impostare `altezza/risoluzione verticale` a `15,000000`
-    - impostare `estensione risultato [opzionale]` come `confini_lazio_moderni`
-    - in `attribuisci un determinato valore nullo alle bande in uscita` impostare `non impostato` cancellando il contenuto della casella che di default è `0,000000`
-    - in `rasterizzato` salvare il nuovo file come `raster_strade`
-
-    - ripetere l'operazione sopra per i layer `laghi`; `insediamenti`; `fiumi`; `confini_moderni_lazio` utilizzando gli stessi parametri
-
-3. Creare un unico raster per l'idrografia (merge raster)
-
-    - Aprire il `Calcolatore di raster`
-    - inserire l'espressione: "raster_fiumi@1" + "raster_laghi@1"
-    - utilizzare `raster_laghi` come `layer di riferimento`
-    - salvare il file come `raster_idrografia`
-
-Il raster in uscita e cioè `raster_idrografia` avrà valore 1 nei pixel dove è presente un corso d'acqua.
-IMPORTANTE: le aree in cui si trovano sia corsi d'acqua (fiumi) che laghi avranno invece valore 2. Per correggere questo errore e riportare tutte le aree con laghi e fiumi al valore 1 seguire il prossimo step:
-
-4. Eliminare valore 2 e sostituirlo con 1 nel layer `raster_idrografia`
-
-    - Aprire nuovamente il `calcolatore raster`
-    - utilizzare la seguente espressione: "raster_idrografia@1" > 0
-    - salvare il file come `raster_idrografia_unita`
-
-5. Prossimità (distanza raster)
-
-    - aprire lo strumento `prossimità (distanza raster)`
-    - in `layer di ingresso` selezionare `raster_strade`
-    - come `unità di distanza` impostare `unità georeferenziate`
-    - impostare come `massima distanza che deve essere generata` il valore `5000`
-    - impostare `valore Nodata` a `non impostato`
-    - salvare il file come `raster_proximity_road`
-
-    - aprire il pannello dello `stile dei layer`
-    - in `gradiente colore` impostare come valore massimo (max) `5000`
-
-    - ripetere la stessa operazione per i layer `raster_idrografia_unita` e `raster_insediamenti`
-
-6. Ricalssificazione strade
-
-    - aprire il `calcolatore dei raster`
-    - inserire la seguente espressione: 
-
-    100*(“raster_proximity_road@1"<=1000) + 50*("rraster_proximity_road@1">1000)*("raster_proximity_road@1"<=5000) + 10*("raster_proximity_road@1">5000)
-
-    - salvare il file come `strade_riclassificato`
-
-7. Riclassificazione acque
-
-    - aprire il `calcolatore dei raster`
-    - inserire la seguente espressione: 
-
-    100*("raster_proximity_acque@1">5000) + 50*("raster_proximity_acque@1">1000) * ("raster_proximity_acque@1"<=5000) + 10*("raster_proximity_acque@1"<1000)
-
-    - salvare il file come `acque_riclassificato`
-
-8. Riclassificare gli insediamenti
-
-    - aprire il `calcolatore dei raster`
-    - inserire la seguente espressione: 
-
-    100*("raster_proximity_insediamenti@1">5000) + 50*("raster_proximity_insediamenti@1">1000) * ("raster_proximity_insediamenti@1"<=5000) + 10*("raster_proximity_insediamenti@1"<1000)
-
-    - salvare il file come `acque_riclassificato`
-
-9. Analisi finale
-
-    - aprire il `calcolatore dei raster`
-    - inserire la seguente espressione:
-
-    ("strade_riclassificato@1" + "acque_riclassificato@1")*("raster_insediamenti@1"  !=  1 ) * "raster_confini@1"
-
-    - salvare il file come `overlay`
-
-10. Impostare simbologia `banda singola falso colore`
-
-    - aprire le proprietà del layer
-    - in tipo di visualizzazione impostare `banda singola falso colore`
-    - classificare
+[< Calcolatore dei campi](Calcolatore%20dei%20campi.md)

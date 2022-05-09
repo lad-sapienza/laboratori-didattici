@@ -3,7 +3,7 @@ tags:
   - vectors
 ---
 # Gestione vettori: creazione, modifica.
-[[Accesso ai dati]] > Dataset: `vector-mng`
+[Accesso ai dati](Accesso%20ai%20dati.md) > Dataset: `vector-mng`
 
 Contenuto dataset:
 ```

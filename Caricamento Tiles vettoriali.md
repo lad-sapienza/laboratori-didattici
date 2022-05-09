@@ -3,7 +3,7 @@ tags:
   - other-formats
 ---
 ## Caricamento Tiles vettoriali
-[[Accesso ai dati]] > Dataset: `other-formats`
+[Accesso ai dati](Accesso%20ai%20dati.md) > Dataset: `other-formats`
 
 Per questo esercizio useremo i dati della cartografia napoleonica d'Egitto, pubblicati a cura del [LAD](https://lad.saras.uniroma1.it) su GitHub, all'indirizzo: https://github.com/lab-archeologia-digitale/jacotin-1828
 
@@ -20,4 +20,4 @@ oppure
 10. Selezionare la risorsa dal menu a tendine e poi click su `Aggiungi`
 11. Click su `Close`
 
-**A differenza dei tiles raster, la [[Simbologia]] di quelli vettoriali può essere modificata**
+**A differenza dei tiles raster, la [Simbologia](Simbologia.md) di quelli vettoriali può essere modificata**

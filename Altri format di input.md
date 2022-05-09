@@ -6,7 +6,7 @@ tags:
 È impossibile elencare tutti i formati possibili che una piattaforma GIS può gestire e in questo incontro verranno portati solo alcuni, pochi, esempi significativi utili nel lavoro archeologico.
 
 ## Dati
-[[Accesso ai dati]] > Dataset: `other-formats`
+[Accesso ai dati](Accesso%20ai%20dati.md) > Dataset: `other-formats`
 
 Contenuto dataset:
 ```
@@ -24,9 +24,9 @@ Contenuto dataset:
 ---
 
 ## Esercizi
-- [[Caricare geometrie da lista di coordinate|Esercizio 1: Caricare geometrie da lista di coordinate]]
-- [[Caricare database da file|Esercizio 2: Caricare database da file]]
-- [[JOIN|Esercizio 3: JOIN]]
-- [[Caricamento GeoJSON remoto|Esercizio 4: Caricamento GeoJSON remoto]]
-- [[Caricamento Tiles XYX|Esercizio 5: Caricamento Tiles XYX]]
-- [[Caricamento Tiles vettoriali|Esercizio 6: Caricamento Tiles vettoriali]]
+- [Caricare geometrie da lista di coordinate](Caricare%20geometrie%20da%20lista%20di%20coordinate.md)
+- [Caricare database da file](Caricare%20database%20da%20file.md)
+- [JOIN](JOIN.md)
+- [Caricamento GeoJSON remoto](Caricamento%20GeoJSON%20remoto.md)
+- [Caricamento Tiles XYX](Caricamento%20Tiles%20XYX.md)
+- [Caricamento Tiles vettoriali](Caricamento%20Tiles%20vettoriali.md)

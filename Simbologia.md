@@ -6,7 +6,7 @@ tags:
 # Simbologia
 Nello sviluppo degli utilimi anni di QGIS, la simbologia ha assunto un valore sempre più importante e ha sostituito nella maggiorparte dei casi l'utilizzo dei filtri.
 
-[[Accesso ai dati]] > Dataset: `symbology`
+[Accesso ai dati](Accesso%20ai%20dati.md) > Dataset: `symbology`
 
 Contenuto dataset:
 ```

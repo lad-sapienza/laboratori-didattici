@@ -26,6 +26,6 @@ Per calcolare queste variabili abbiamo dunque bisogno di:
 5. **La rete di insediamenti noti di età romana imperiale** è stata invece scaricata da [Pleiades](https://pleiades.stoa.org/), all'indirizzo: [http://atlantides.org/downloads/pleiades/kml/pleiades-latest.kmz](http://atlantides.org/downloads/pleiades/kml/pleiades-latest.kmz)
 6. Infine, il modello digitale del terreno (DEM) con risoluzione di 30m è stato scaricato da [https://opentopography.org/](https://opentopography.org/), attraverso il plugin di `QGIS OpenTopography DEM Downloader`
 
-[[Accesso ai dati]] > Dataset `adv`
+[Accesso ai dati](Accesso%20ai%20dati.md) > Dataset `adv`
 
-Il prossimo passaggio riguarda la [[GIS avanzato - Preparazione dei dati|preparazione dei dati]].
+Il prossimo passaggio riguarda la [Preparazione dei dati](Preparazione%20dei%20dati.md)

@@ -11,11 +11,11 @@ Data set:
 1. Calcolatore di campo
 	1. Crea nuovo campo: `tipo`, testuale, lunghezza 100
 	2. In espressione inserire `string_to_array(  "descrizione" , ';')[0]`
-	![[Pasted image 20220509122030.png]]
+	![Pasted image 20220509122030](img/Pasted%20image%2020220509122030.png)
 2. Calcolatore di campo
 	1. Crea nuovo campo: `cronologia`, testuale, lunghezza 100
 	2. In espressione inserire `string_to_array(  "descrizione" , ';')[1]`
-	![[Pasted image 20220509122335.png]]
+	![Pasted image 20220509122335](img/Pasted%20image%2020220509122335.png)
 3. Calcolatore di campo
 	1. Crea nuovo campo: `cronoda`, integer, lunghezza 50
 	2. In espressione inserire :
@@ -61,5 +61,5 @@ if(
 5. Cancellare i campi  `descrizione` e `cronologia`
 6. Cancellare tutti i siti che non sono insediamenti.
 
-[[GIS avanzato - Preparazione dei dati| < Passaggio precedente]]
-[[Analisi a criteri multipli|> Passaggio successivo: analisi a criteri multipli]]
+[< GIS avanzato - Preparazione dei dati](Preparazione%20dei%20dati.md)
+[> Analisi a criteri multipli](Analisi%20a%20criteri%20multipli.md)

@@ -6,7 +6,7 @@ tags:
 
 # Georiferire dati raster con punti di controllo a terra (GCP)
 
-[[Accesso ai dati]] > Dataset: `georef-gcp`
+[Accesso ai dati](Accesso%20ai%20dati.md) > Dataset: `georef-gcp`
 
 ```
 Contenuto:
@@ -15,4 +15,4 @@ Contenuto:
 - Bookmark.xml
 ```
 
-[[Importare un segnalibro spaziale]]
+[Importare un segnalibro spaziale](Importare%20un%20segnalibro%20spaziale.md)

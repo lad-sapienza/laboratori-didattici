@@ -4,9 +4,9 @@ tags:
 ---
 # Interrogazioni SQL in QGIS
 
-Il linguaggio SQL è usato in QGIS per analizzare i dati e per creare vari tematismi. In particolare viene usato per creare `filtri` e per la gestione avanzata della [[Simbologia]].
+Il linguaggio SQL è usato in QGIS per analizzare i dati e per creare vari tematismi. In particolare viene usato per creare `filtri` e per la gestione avanzata della [Simbologia](Simbologia.md).
 
-[[Accesso ai dati]] > Dataset: `sql`
+[Accesso ai dati](Accesso%20ai%20dati.md) > Dataset: `sql`
 
 Contenuto del dataset:
 ```
@@ -22,7 +22,7 @@ Contenuto del dataset:
 	1. Introduzione al `Costruttore di interrogazioni`
 
 ## Sintassi di base SQL.
-[[Sintassi SQL (DQL) di base|Sintassi SQL di base, per interrogazioni]]
+[Sintassi SQL (DQL) di base](Sintassi%20SQL%20(DQL)%20di%20base.md)
 
 
 ## Filtro 1: tutti i siti che sono stati capitale di _nomós_

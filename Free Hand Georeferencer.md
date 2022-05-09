@@ -5,7 +5,7 @@ tags:
 ---
 # Georiferire dati raster con Freehand raster georeferencer
 
-[[Accesso ai dati]] > Dataset: `geo-freehand`
+[Accesso ai dati](Accesso%20ai%20dati.md) > Dataset: `geo-freehand`
 
 ```
 Contenuto:
@@ -18,7 +18,7 @@ Contenuto:
 	2. Cercare: `Freehand`
 	3. Selezionare e installare.
 2. Caricare i segnalibri in `Bookmark.xml`
-	[[Importare un segnalibro spaziale]]
+	[Importare un segnalibro spaziale](Importare%20un%20segnalibro%20spaziale.md)
 3. Caricare mappa Bing
 	1. `Web` > `Quickmapservices` > `Bing` > `Bing satellite`
 4. Avviare il plugin da

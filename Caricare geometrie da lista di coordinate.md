@@ -3,7 +3,7 @@ tags:
   - other-formats
 ---
 ## Caricare geometrie da lista di coordinate
-[[Accesso ai dati]] > Dataset: `other-formats`
+[Accesso ai dati](Accesso%20ai%20dati.md) > Dataset: `other-formats`
 
 File da usare: `site_coord.csv`
 Esempio di contenuto (prime 10 righe):

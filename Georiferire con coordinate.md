@@ -4,7 +4,7 @@ tags:
   - raster
 ---
 # Georiferire dati raster con coordinate
-[[Accesso ai dati]] > Dataset: `georef-coord`
+[Accesso ai dati](Accesso%20ai%20dati.md) > Dataset: `georef-coord`
 
 Contenuto:
 ```

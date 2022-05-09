@@ -3,7 +3,7 @@ tags:
   - other-formats
 ---
 ## JOIN
-[[Accesso ai dati]] > Dataset: `other-formats`
+[Accesso ai dati](Accesso%20ai%20dati.md) > Dataset: `other-formats`
 
 QGIS permette di arricchire un layer di geomatrie caricato in un progetto, con attributi provenienti da un database esterno, sempre caricati sul progetto.
 

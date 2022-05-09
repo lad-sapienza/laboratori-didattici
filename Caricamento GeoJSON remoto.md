@@ -3,7 +3,7 @@ tags:
   - other-formats
 ---
 ## Caricamento GeoJSON remoto
-[[Accesso ai dati]] > Dataset: `other-formats`
+[Accesso ai dati](Accesso%20ai%20dati.md) > Dataset: `other-formats`
 
 Per questo esercizio useremo i dati della cartografia napoleonica d'Egitto, pubblicati a cura del [LAD](https://lad.saras.uniroma1.it) su GitHub, all'indirizzo: https://github.com/lab-archeologia-digitale/jacotin-1828
 

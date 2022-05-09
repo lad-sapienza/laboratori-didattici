@@ -3,7 +3,7 @@ tags:
   - other-formats
 ---
 ## Caricare database da file
-[[Accesso ai dati]] > Dataset: `other-formats`
+[Accesso ai dati](Accesso%20ai%20dati.md) > Dataset: `other-formats`
 
 File da usare:
 - `site_attr.csv`
