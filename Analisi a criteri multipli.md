@@ -56,7 +56,9 @@ tags:
     1. Aprire il `calcolatore dei raster`
     2. Inserire la seguente espressione:  
 	`100*("strade-prossimita@1"<=1000) + 50*("strade-prossimita@1">1000)*("strade-prossimita@1"<=6000) + 10*("strade-prossimita@1">6000)`
-	3. Salvare il file come `strade-riclassificato`
+	3. In `Referencelayer(s)` selezionare `confine-lazio`
+	4. Salvare il file come `strade-riclassificato`
+	![](img/strade-classificate.png)
 9. Riclassificazione acque, definendo tre classi, rispettivamente:
 	 -  **100** che raccoglie le aree oltre i 6km di distanza, 
 	 -  **50** che raccoglie le aree tra 1km e 5 km e 
@@ -64,7 +66,8 @@ tags:
     1. Aprire il `calcolatore dei raster`
     2. Inserire la seguente espressione:  
 	`100*("idrografia-prossimita@1">6000) + 50*("idrografia-prossimita@1">1000) * ("idrografia-prossimita@1"<=6000) + 10*("idrografia-prossimita@1"<1000)`
-    3. Salvare il file come `idrografia-riclassificato`
+	3. In `Referencelayer(s)` selezionare `confine-lazio`
+	4. Salvare il file come `idrografia-riclassificato`
 10. Riclassificare gli insediamenti, definendo tre classi, rispettivamente:
 	 -  **100** che raccoglie le aree oltre i 6km di distanza, 
 	 -  **50** che raccoglie le aree tra 1km e 5 km e 
@@ -72,13 +75,15 @@ tags:
     1. Aprire il `calcolatore dei raster`
     2. Inserire la seguente espressione:  
 	`100*("insediamenti-prossimita@1">6000) + 50*("insediamenti-prossimita@1">1000) * ("insediamenti-prossimita@1"<=6000) + 10*("insediamenti-prossimita@1"<1000)`
-    3. Salvare il file come `insediamenti-riclassificato`
+	3. In `Referencelayer(s)` selezionare `confine-lazio`
+	4. Salvare il file come `insediamenti-riclassificato`
 11. Analisi finale
     1. Aprire il `calcolatore dei raster`
     2. Inserire la seguente espressione:  
     `("strade-riclassificato@1" + "idrografia-riclassificato@1")*("insediamenti-riclassificato@1"  !=  1 ) * "confine-raster@1"`
-    4. salvare il file come `overlay`
-12. Impostare simbologia `banda singola falso colore`
+	3. In `Referencelayer(s)` selezionare `confine-lazio`
+	4. 4. salvare il file come `overlay`
+1. Impostare simbologia `banda singola falso colore`
 	- Aprire le proprietà del layer
     - In tipo di visualizzazione impostare `banda singola falso colore`
     - Classificare
