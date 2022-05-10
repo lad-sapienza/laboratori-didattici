@@ -35,6 +35,6 @@ Appunti per il laboratorio di archeologia digitale
 
 ### 3. GIS avanzato per l'Archeologia
 - [GIS Avanzato - Introduzione](GIS%20Avanzato%20-%20Introduzione.md)
-	- [Preparazione dei dati](Preparazione%20dei%20dati.md)
-	- [Calcolatore dei campi](Calcolatore%20dei%20campi.md)
-	- [Analisi a criteri multipli](Analisi%20a%20criteri%20multipli.md)
+- [Preparazione dei dati](Preparazione%20dei%20dati.md)
+- [Calcolatore dei campi](Calcolatore%20dei%20campi.md)
+- [Analisi a criteri multipli](Analisi%20a%20criteri%20multipli.md)
