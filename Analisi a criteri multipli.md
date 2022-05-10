@@ -21,8 +21,8 @@ tags:
 	    6. Impostare `estensione risultato [opzionale]` come `confine-lazio`
 	    7. In `attribuisci un determinato valore nullo alle bande in uscita` impostare `non impostato` cancellando il contenuto della casella che di default (è `0,000000`)
     	8. In `rasterizzato` salvare il nuovo file come `strade-raster`
-    	![Pasted image 20220509153644](img/Pasted%20image%2020220509153644.png)
-		![Pasted image 20220509153653](img/Pasted%20image%2020220509153653.png)
+    	![Pasted image 20220509153644](img/rasterizza-strade-1.png)
+		![Pasted image 20220509153653](img/rasterizza-strade-2.png)
     3. Ripetere l'operazione sopra per gli altri layer: `fiumi-lazio`,  `acque-interne-lazio` e `insediamenti-imperiali` , utilizzando gli stessi parametri. Per quest'ultimo cambiare la risoluzione a 30x30m.
     4. Creare un gruppo di layer chiamato `Step-2` e includervi tutti i raster creati in questo passaggio
 4. Creare un unico raster per l'idrografia
@@ -30,7 +30,7 @@ tags:
     2. Inserire l'espressione: `"acque-interne-raster@1" + "fiumi-raster@1"`
     3. Utilizzare `confine-raster` come `layer di riferimento`
     4. Salvare il file come `idrografia-3-valori`
-    ![Pasted image 20220509155655](img/Pasted%20image%2020220509155655.png)
+    ![Pasted image 20220509155655](img/unione-fiumi-acque-interne.png)
 	Il raster in uscita e cioè `raster_idrografia` avrà valore 1 nei pixel dove è presente un corso d'acqua.  
 	**Importante**: le aree in cui si trovano sia corsi d'acqua (fiumi) che laghi avranno invece valore 2. Per correggere questo errore e riportare tutte le aree con laghi e fiumi al valore 1 seguire il prossimo step:
 5. Eliminare valore 2 e sostituirlo con 1 nel layer `idrografia-3-valori`
@@ -45,7 +45,7 @@ tags:
     4. Impostare come `massima distanza che deve essere generata` il valore `6000` (= 6km)
     5. Impostare `valore Nodata` a `non impostato`
     6. Salvare il file come `strade-prossimita`
-    ![Pasted image 20220509161130](img/Pasted%20image%2020220509161130.png)
+    ![Pasted image 20220509161130](img/prossimita-idrografia.png)
     7. Aprire il pannello dello `stile dei layer`
     8. In `gradiente colore` impostare come valore massimo (max) `6000`
     9. Ripetere le stesse operazioni per i layer `idrografia-raster` e `insediamenti-raster`
