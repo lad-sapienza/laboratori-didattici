@@ -25,7 +25,7 @@ tags:
 		![Pasted image 20220509153653](img/Pasted%20image%2020220509153653.png)
     3. Ripetere l'operazione sopra per gli altri layer: `fiumi-lazio`,  `acque-interne-lazio` e `insediamenti-imperiali` , utilizzando gli stessi parametri. Per quest'ultimo cambiare la risoluzione a 30x30m.
     4. Creare un gruppo di layer chiamato `Step-2` e includervi tutti i raster creati in questo passaggio
-3. Creare un unico raster per l'idrografia
+4. Creare un unico raster per l'idrografia
     1. Cercare e aprire nel panello processing `Calcolatore raster` (sotto `GDAL` > `Raster miscellanea`)
     2. Inserire l'espressione: `"acque-interne-raster@1" + "fiumi-raster@1"`
     3. Utilizzare `confine-raster` come `layer di riferimento`
@@ -33,12 +33,12 @@ tags:
     ![Pasted image 20220509155655](img/Pasted%20image%2020220509155655.png)
 	Il raster in uscita e cioè `raster_idrografia` avrà valore 1 nei pixel dove è presente un corso d'acqua.  
 	**Importante**: le aree in cui si trovano sia corsi d'acqua (fiumi) che laghi avranno invece valore 2. Per correggere questo errore e riportare tutte le aree con laghi e fiumi al valore 1 seguire il prossimo step:
-4. Eliminare valore 2 e sostituirlo con 1 nel layer `idrografia-3-valori`
+5. Eliminare valore 2 e sostituirlo con 1 nel layer `idrografia-3-valori`
     1. Aprire nuovamente il `Calcolatore raster`
     2. Utilizzare la seguente espressione: `"idrografia-3-valori@1" > 0`
     3. Salvare il file come `idrografia-raster`
-5. Creare un gruppo di layer chiamato `Step-3` e includervi tutti i raster creati in questo passaggio
-6. Analisi di prossimità (distanza raster)
+6. Creare un gruppo di layer chiamato `Step-3` e includervi tutti i raster creati in questo passaggio
+7. Analisi di prossimità (distanza raster)
     1. Aprire lo strumento `Prossimità (distanza raster)` (sotto `GDAL` > `Analisi raster`)
     2. In `layer di ingresso` selezionare `strade-raster`
     3. Come `unità di distanza` impostare `unità georeferenziate`
@@ -49,36 +49,37 @@ tags:
     7. Aprire il pannello dello `stile dei layer`
     8. In `gradiente colore` impostare come valore massimo (max) `6000`
     9. Ripetere le stesse operazioni per i layer `idrografia-raster` e `insediamenti-raster`
-7. Ricalssificazione strade
+8. Ricalssificazione strade, definendo tre classi, rispettivamente:
+	 -  **100** che raccoglie le aree fino a 1km di distanza, 
+	 -  **50** che raccoglie le aree tra 1km e 5 km e 
+	 -  **10** che raccoglie le aree distanti più di 6km.
     1. Aprire il `calcolatore dei raster`
-    2. Inserire la seguente espressione: 
-	```
-    100*("strade-prossimita@1"<=1000) + 50*("strade-prossimita@1">1000)*("strade-prossimita@1"<=5000) + 10*("strade-prossimita@1">5000)
-	```
+    2. Inserire la seguente espressione:  
+	`100*("strade-prossimita@1"<=1000) + 50*("strade-prossimita@1">1000)*("strade-prossimita@1"<=6000) + 10*("strade-prossimita@1">6000)`
 	3. Salvare il file come `strade-riclassificato`
-8. Riclassificazione acque
+9. Riclassificazione acque, definendo tre classi, rispettivamente:
+	 -  **100** che raccoglie le aree oltre i 6km di distanza, 
+	 -  **50** che raccoglie le aree tra 1km e 5 km e 
+	 -  **10** che raccoglie le aree distanti meno di 1km.
     1. Aprire il `calcolatore dei raster`
-    2. Inserire la seguente espressione: 
-	```
-    100*("idrografia-prossimita@1">5000) + 50*("idrografia-prossimita@1">1000) * ("idrografia-prossimita@1"<=5000) + 10*("idrografia-prossimita@1"<1000)
-	```
+    2. Inserire la seguente espressione:  
+	`100*("idrografia-prossimita@1">6000) + 50*("idrografia-prossimita@1">1000) * ("idrografia-prossimita@1"<=6000) + 10*("idrografia-prossimita@1"<1000)`
     3. Salvare il file come `idrografia-riclassificato`
-9. Riclassificare gli insediamenti
+10. Riclassificare gli insediamenti, definendo tre classi, rispettivamente:
+	 -  **100** che raccoglie le aree oltre i 6km di distanza, 
+	 -  **50** che raccoglie le aree tra 1km e 5 km e 
+	 -  **10** che raccoglie le aree distanti meno di 1km.
     1. Aprire il `calcolatore dei raster`
-    2. Inserire la seguente espressione: 
-	```
-    100*("insediamenti-prossimita@1">5000) + 50*("insediamenti-prossimita@1">1000) * ("insediamenti-prossimita@1"<=5000) + 10*("insediamenti-prossimita@1"<1000)
-	```
+    2. Inserire la seguente espressione:  
+	`100*("insediamenti-prossimita@1">6000) + 50*("insediamenti-prossimita@1">1000) * ("insediamenti-prossimita@1"<=6000) + 10*("insediamenti-prossimita@1"<1000)`
     3. Salvare il file come `insediamenti-riclassificato`
-10. Analisi finale
+11. Analisi finale
     1. Aprire il `calcolatore dei raster`
-    2. Inserire la seguente espressione:
-	```
-    ("strade-riclassificato@1" + "idrografia-riclassificato@1")*("insediamenti-riclassificato@1"  !=  1 ) * "confine-raster@1"
-	```
-    3. salvare il file come `overlay`
-11. Impostare simbologia `banda singola falso colore`
-    - Aprire le proprietà del layer
+    2. Inserire la seguente espressione:  
+    `("strade-riclassificato@1" + "idrografia-riclassificato@1")*("insediamenti-riclassificato@1"  !=  1 ) * "confine-raster@1"`
+    4. salvare il file come `overlay`
+12. Impostare simbologia `banda singola falso colore`
+	- Aprire le proprietà del layer
     - In tipo di visualizzazione impostare `banda singola falso colore`
     - Classificare
 
