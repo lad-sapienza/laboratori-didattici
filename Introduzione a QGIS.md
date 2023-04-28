@@ -3,8 +3,8 @@
 
 - Web: [https://www.qgis.org/](https://www.qgis.org/en/site/)
 - Versione corrente:
-	- **LTR (Long term release): 3.22**
-	- Versione più recente: 3.24
+	- **LTR (Long term release): 3.28.5**
+	- Versione più recente: 3.30.1
 - Disponibile all'indirizzo [https://www.qgis.org/it/site/forusers/download.html](https://www.qgis.org/it/site/forusers/download.html) per:
 	- Windows
 	- MacOS

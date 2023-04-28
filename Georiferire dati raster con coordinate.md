@@ -17,10 +17,10 @@ Contenuto:
 	- 10285082.jp2
 ```
 
-## Dataset  di esempio #1: Cairo City Map 1959
+## Dataset  di esempio #1: Cairo City Map 1958
 
 ### Metadati generali
-- Sistema di Riferimento: **ED50 / UTM zone 36N (EPSG:23035)**
+- Sistema di Riferimento: **ED50 / UTM zone 36N (EPSG:23036)**
 - Coordinate rosse: Egypt Red Belt (EPSG:22992)
 - Coordinate geografiche in ED50 (EPSG: 4230)
 - Pagina iniziale d’indirizzo: https://legacy.lib.utexas.edu/maps/egypt.html

@@ -61,7 +61,7 @@ tags:
 	![](img/strade-classificate.png)
 9. Riclassificazione acque, definendo tre classi, rispettivamente:
 	 -  **100** che raccoglie le aree oltre i 6km di distanza, 
-	 -  **50** che raccoglie le aree tra 1km e 5 km e 
+	 -  **50** che raccoglie le aree tra 1km e 6 km e 
 	 -  **10** che raccoglie le aree distanti meno di 1km.
     1. Aprire il `calcolatore dei raster`
     2. Inserire la seguente espressione:  
@@ -70,17 +70,18 @@ tags:
 	4. Salvare il file come `idrografia-riclassificato`
 10. Riclassificare gli insediamenti, definendo tre classi, rispettivamente:
 	 -  **100** che raccoglie le aree oltre i 6km di distanza, 
-	 -  **50** che raccoglie le aree tra 1km e 5 km e 
+	 -  **50** che raccoglie le aree tra 1km e 6 km e 
 	 -  **10** che raccoglie le aree distanti meno di 1km.
     1. Aprire il `calcolatore dei raster`
     2. Inserire la seguente espressione:  
 	`100*("insediamenti-prossimita@1">6000) + 50*("insediamenti-prossimita@1">1000) * ("insediamenti-prossimita@1"<=6000) + 10*("insediamenti-prossimita@1"<1000)`
 	3. In `Referencelayer(s)` selezionare `confine-lazio`
 	4. Salvare il file come `insediamenti-riclassificato`
+	![](Pasted%20image%2020220510153347.png)
 11. Analisi finale
     1. Aprire il `calcolatore dei raster`
     2. Inserire la seguente espressione:  
-    `("strade-riclassificato@1" + "idrografia-riclassificato@1")*("insediamenti-riclassificato@1"  !=  1 ) * "confine-raster@1"`
+    `("strade-riclassificate@1" + "idrografia-riclassificata@1")*("insediamenti-riclassificati@1" != 1 ) * "confine-raster@1"`
 	3. In `Referencelayer(s)` selezionare `confine-lazio`
 	4. 4. salvare il file come `overlay`
 1. Impostare simbologia `banda singola falso colore`

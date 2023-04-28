@@ -1,6 +1,6 @@
 # Dati relativi alle esercitazioni
 ## Collegamento alla cartella condivisa
-[https://www.dropbox.com/sh/a7u66ggkmqubkw1/AABWkS5F8YLmooNeDPZ3fiGca](https://www.dropbox.com/sh/a7u66ggkmqubkw1/AABWkS5F8YLmooNeDPZ3fiGca)
+[https://drive.google.com/drive/folders/13xfSC8S204dAXUEUhOpeZAib8fmQmJja?usp=sharing](https://drive.google.com/drive/folders/13xfSC8S204dAXUEUhOpeZAib8fmQmJja?usp=sharing)
 
 
 ![Data repository](img/data.png)

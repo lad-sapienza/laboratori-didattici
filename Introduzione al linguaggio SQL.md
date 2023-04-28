@@ -37,7 +37,7 @@ SELECT * FROM "siti" WHERE 1=1;
 ## Sotto-linguaggi
 Lo SQL presenta uno strumentario molto ricco per interagire con i database. A seconda dell'utilizzo, possono essere definiti **informalente** dei sotto-liguaggi, tutti insieme :
 
-- **DDL** (Data Definition Language) usato per  creare e modificare schemi di database, es.:
+**DDL** (Data Definition Language) usato per  creare e modificare schemi di database, es.:
 ```SQL
 CREATE TABLE "siti" (
 	"id" INT PRIMARY KEY NOT NULL,
@@ -47,18 +47,21 @@ CREATE TABLE "siti" (
 	"crono_a" INT
 );
 ```
-- **DML** (Data Manipulation Language) usato per inserire, modificare e gestire dati memorizzati, es.:
+
+**DML** (Data Manipulation Language) usato per inserire, modificare e gestire dati memorizzati, es.:
 ```SQL
 INSERT INTO "siti"
 	("nome", "tipologia", "crono_da", "crono_a")
 	VALUES
 	('Roma', 'città', -753, 476);
 ```
-- **DQL** (Data Query Language) usato per interrogare i dati memorizzati, es.:
+
+**DQL** (Data Query Language) usato per interrogare i dati memorizzati, es.:
 ```sql
 SELECT *  FROM "siti" WHERE "tipologia" = 'città';
 ```
-- **DCL** (Data Control Language) creare e gestire strumenti di controllo e accesso ai dati, es.:
+
+**DCL** (Data Control Language) creare e gestire strumenti di controllo e accesso ai dati, es.:
 ```sql
 CREATE USER jbogdani WITH ENCRYPTED PASSWORD 'my-very-secret-password'; 
 ```

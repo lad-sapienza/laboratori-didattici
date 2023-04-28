@@ -53,14 +53,14 @@ AND
 restituisce 27 elementi.
 
 ## Operatori SQL
-### `=`
+### Operatore `=`
 Trova esattamente il valore contenuto nella striga di riferimento:
 ```sql
 "typology" = 'settlement'
 ```
 troverà `settlement` ma non `settlement-modern`
 
-### `LIKE`
+### Operatore `LIKE`
 Permette di usare il `wildcard`, ovvero carattere jolly `%` che sta per `ogni possibile carattere 0, 1o più volte`, es.:
 ```sql
 "typology" LIKE 'settlement%'
@@ -81,13 +81,13 @@ troverà tutti i valori che contengono la stringa `settlement` in qualsiasi posi
 Il carattere jolly può essere usato anche i posizione intermedia, per ovviare, per esempio, ai non frequenti anomalie di dati dovuti a errori o grafie alternative, es:
 
 ` "typology" LIKE 'set%lement'` troverà sia la forma corretta `settlement` che quella sbagliata `setlement`. Ugualmente `arch%eology` troverà le forme entrambe corrette di `archaeology` ed `archeology`.
-### `<`,  `>`, `<=` e `>=`
+### Operatori `<`,  `>`, `<=` e `>=`
 Permettono di confrontare valori (principalmente) numerici, es:
 ```sql
 "datefrom" > 200 AND "dateto" <= 1000
 ```
 
-### `IN`
+### Operatore `IN`
 Permette do fornire una lista di valori per il confronto ed è sufficiente un solo riscontro positivo, es:
 ```sql
 "typology" IN ("settlement", "settlement-modern")
@@ -97,5 +97,5 @@ Permette do fornire una lista di valori per il confronto ed è sufficiente un so
 "typology" = "settlement" OR  "typology" = "settlement-modern"
 ```
 
-### `NOT IN`
+### Operatore `NOT IN`
 È la negazione di `IN`.

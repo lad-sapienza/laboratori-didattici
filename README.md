@@ -5,10 +5,10 @@ Appunti per il laboratorio di archeologia digitale
 
 
 ### 1. GIS base per l'Archeologia
-- [Introduduzione a QGIS](Introduduzione%20a%20QGIS.md)
+- [Introduzione a QGIS](Introduzione%20a%20QGIS.md)
 - [Principali formati raster](Principali%20formati%20raster.md)
 - Georiferire dati raster		
-	- [Georiferire con coordinate](Georiferire%20con%20coordinate.md)
+	- [Georiferire dati raster con coordinate](Georiferire%20dati%20raster%20con%20coordinate.md)
 	- [Georiferier con GCP](Georiferier%20con%20GCP.md)
 	- [Free Hand Georeferencer](Free%20Hand%20Georeferencer.md)
 - [Introduzione e formati dei vettori](Introduzione%20e%20formati%20dei%20vettori.md)
