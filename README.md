@@ -1,6 +1,6 @@
 # Indice generale
 
-Appunti per il laboratorio di archeologia digitale
+Appunti per il Laboratorio di Archeologia Digitale
 ***
 
 
@@ -10,7 +10,7 @@ Appunti per il laboratorio di archeologia digitale
 - Georiferire dati raster		
 	- [Georiferire dati raster con coordinate](Georiferire%20dati%20raster%20con%20coordinate.md)
 	- [Georiferier con GCP](Georiferier%20con%20GCP.md)
-	- [Free Hand Georeferencer](Free%20Hand%20Georeferencer.md)
+	- ~~[Free Hand Georeferencer](Free%20Hand%20Georeferencer.md)~~
 - [Introduzione e formati dei vettori](Introduzione%20e%20formati%20dei%20vettori.md)
 - [Gestione vettori creazione, modifica](Gestione%20vettori%20creazione,%20modifica.md)
 - SQL
@@ -25,6 +25,7 @@ Appunti per il laboratorio di archeologia digitale
 	- [Caricamento GeoJSON remoto](Caricamento%20GeoJSON%20remoto.md)
 	- [Caricamento Tiles XYX](Caricamento%20Tiles%20XYX.md)
 	- [Caricamento Tiles vettoriali](Caricamento%20Tiles%20vettoriali.md)
+- **TODO**: Layout di stampa
 
 ###  2. Banche Dati Relazionali per l'Archeologia
 - Introduzione alle banche dati relazionali

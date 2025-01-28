@@ -3,8 +3,8 @@
 
 - Web: [https://www.qgis.org/](https://www.qgis.org/en/site/)
 - Versione corrente:
-	- **LTR (Long term release): 3.28.5**
-	- Versione più recente: 3.30.1
+	- **LTR (Long Term Release): 3.34.15 Prizren**
+	- Versione più recente: 3.40.3 Bratislava
 - Disponibile all'indirizzo [https://www.qgis.org/it/site/forusers/download.html](https://www.qgis.org/it/site/forusers/download.html) per:
 	- Windows
 	- MacOS
@@ -21,10 +21,10 @@
 	- Piattaforme mobile (QField, Input, IntraMaps Roam)
 
 ## Manuale utente
-https://docs.qgis.org/3.22/it/docs/user_manual/index.html
+https://docs.qgis.org/3.34/it/docs/user_manual/index.html
 
 ## Funzionalità principali
-https://docs.qgis.org/3.22/it/docs/user_manual/preamble/features.html
+https://docs.qgis.org/3.34/it/docs/user_manual/preamble/features.html
 
 ## Interfaccia utente
 ![img/gui.png](img/gui.png)
@@ -39,5 +39,5 @@ https://docs.qgis.org/3.22/it/docs/user_manual/preamble/features.html
 1. Accedere alla gestione dei plugin attraverso il menu principale:
    `Plugins > Gestisci e installa plugin...`
 2. Cercare installare ed eventualmente attivare i seguenti plugin:
-	- Freehand raster georeferencer
+	- ~~Freehand raster georeferencer~~
 	- QuickMapServices

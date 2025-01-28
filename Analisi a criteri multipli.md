@@ -8,7 +8,7 @@ tags:
 > [http://www.qgistutorials.com/it/docs/3/multi_criteria_overlay.html](http://www.qgistutorials.com/it/docs/3/multi_criteria_overlay.html)
 
 
-1. Aprire il progetto QGIS, come si è venuto a creare dal [passaggioprecedente](Calcolatore%20dei%20campi.md)
+1. Aprire il progetto QGIS, come si è venuto a creare dal [passaggio precedente](Calcolatore%20dei%20campi.md)
 2. Raggruppare i livelli vettoriali (`fiumi-lazio`, `strade-lazio`, `acque-interne-lazio` e `insediamenti-imperiali`) in un gruppo chiamato `Step-1`
 3. Rasterizzare i vettori del gruppo `Step-1`
 	1. Menu `Processing` > `Strumenti`
