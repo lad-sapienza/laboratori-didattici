@@ -17,5 +17,5 @@ tags:
 ![Pasted image 20220509115835](img/ritaglia-siti.png)
 ![Pasted image 20220509120250](img/salvare-siti-gpkg.png)
 
-[< GIS Avanzato - Introduzione](GIS%20Avanzato%20-%20Introduzione.md)
+[< GIS Avanzato - Introduzione](GIS%20Avanzato%20-%20Analisi%20multi-criterio.md)
 [> Calcolatore dei campi](Calcolatore%20dei%20campi.md)

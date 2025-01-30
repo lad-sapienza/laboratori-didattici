@@ -77,7 +77,7 @@ tags:
 	`100*("insediamenti-prossimita@1">6000) + 50*("insediamenti-prossimita@1">1000) * ("insediamenti-prossimita@1"<=6000) + 10*("insediamenti-prossimita@1"<1000)`
 	3. In `Referencelayer(s)` selezionare `confine-lazio`
 	4. Salvare il file come `insediamenti-riclassificato`
-	![](Pasted%20image%2020220510153347.png)
+	![](img/Pasted%20image%2020220510153347.png)
 11. Analisi finale
     1. Aprire il `calcolatore dei raster`
     2. Inserire la seguente espressione:  

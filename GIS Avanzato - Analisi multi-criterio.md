@@ -3,7 +3,7 @@ tags:
   - adv
 ---
 # GIS modulo avanzato: introduzione
-In questo modulo avanzato verrà preso in considerazione un caso di studio concreto, una domnda di tipo archeologico relativa ad un ambito cronologico e geografico ben preciso.
+In questo modulo avanzato verrà preso in considerazione un caso di studio concreto, una domanda di tipo archeologico relativa ad un ambito cronologico e geografico ben preciso.
 
 La domanda archeologica potrebbe essere così formulata:
 > Quali sono le aree dell'attuale regione del Lazio che presentano caratteristiche ottimale per lo sviluppo degli insediamenti di età romana imperiale, ma che ad oggi non hanno dato tracce sicure in tal senso?

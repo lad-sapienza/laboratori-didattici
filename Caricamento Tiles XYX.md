@@ -17,7 +17,7 @@ Per questo esercizio useremo i dati della cartografia napoleonica d'Egitto, pubb
 oppure
 `CTRL+L` (`CMD+L` su MacOS) > `XYZ`
 6. Click su `Nuovo`
-7. Inserire un nome significatico per la risorsa, es. `Delta egiziano di Arrowsmith`
+7. Inserire un nome significativo per la risorsa, es. `Delta egiziano di Arrowsmith`
 8. Incollare in URL l'indirizzo copiato dal sito di PAThs: `https://swift.cloud.garr.it/swift/v1/arrowsmith-1807/{z}/{x}/{y}.png`
 9. Click su `OK`
 10. Selezionare la risorsa dal menu a tendine e poi click su `Aggiungi`

@@ -7,9 +7,9 @@ Un linguaggio formale per gestire, dalla A alla Z, i database relazionali, compr
 
 ## Standard e dialetti
 
-Lo **SQL** è atandard del American National Standards Institute (ANSI) dal 1986, e del International Organization for Standardization (ISO) dal 1987.
+Lo **SQL** è standard del American National Standards Institute (ANSI) dal 1986, e del International Organization for Standardization (ISO) dal 1987.
 
-Nonostante ciò, molto raramente viene implementato nella sua forma standatizzata dai singoli produttori di RDBMS (Relational Database Management System), i quali introduccono spesso varianti dialettali, sia al fine di aggiungere nuove funzioni non previste nello standard, sia per semplificare il lavoro degli utenti, sia infine per rendere più difficile il passaggio dei dati daun sistema all'altro.
+Nonostante ciò, molto raramente viene implementato nella sua forma standatizzata dai singoli produttori di RDBMS (Relational Database Management System), i quali introducono spesso varianti dialettali, sia al fine di aggiungere nuove funzioni non previste nello standard, sia per semplificare il lavoro degli utenti, sia infine per rendere più difficile il passaggio dei dati daun sistema all'altro.
 Tra i moltissimi prodotti disponibili, solo [PostgreSQL](https://www.postgresql.org/) implementa in maniera rigida lo standard.
 
 ### Esempi di dialetti, differenza di sintassi

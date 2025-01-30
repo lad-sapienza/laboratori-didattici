@@ -46,7 +46,7 @@ AND
 
 ## Filtro 4: siti attivi  nel V sec. d.C.
 ```sql
-"datefrom" < 500 AND "dateto" > 500
+"datefrom" < 500 AND "dateto" > 400
 ```
 
 

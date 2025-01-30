@@ -34,8 +34,10 @@ Appunti per il Laboratorio di Archeologia Digitale
 - [Guida online](https://docs.bdus.cloud/)
 - [Realizazione di una banca dati relazionale con Bradypus](https://bdus.cloud/edu/db/)
 
-### 3. GIS avanzato per l'Archeologia
-- [GIS Avanzato - Introduzione](GIS%20Avanzato%20-%20Introduzione.md)
+### 3. GIS avanzato: Esempio di Analisi multi-criterio
+- [GIS Avanzato - Analisi multi-criterio](GIS%20Avanzato%20-%20Analisi%20multi-criterio.md)
 - [Preparazione dei dati](Preparazione%20dei%20dati.md)
 - [Calcolatore dei campi](Calcolatore%20dei%20campi.md)
 - [Analisi a criteri multipli](Analisi%20a%20criteri%20multipli.md)
+### 4. GIS avanzato: Analisi elevati
+- [Introduzione all'analisi degli elevati](GIS%20avanzato%20-%20Analisi%20elevati.md)
