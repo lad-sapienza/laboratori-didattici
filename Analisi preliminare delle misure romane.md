@@ -34,4 +34,4 @@ tags:
 
 ---
 Prossimo passo:
-- [Creazione dei campi virtuali con le misure ricavate](Creazione%20dei%20campi%20virtuali%20con%20le%20misure%20ricavate.md)
+- 

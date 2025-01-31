@@ -3,13 +3,30 @@ tags:
   - adv
   - prospetti
 ---
+## Dati
+[Accesso ai dati](Accesso%20ai%20dati.md) > Dataset: `façade`
+
+Contenuto dataset:
+```
+- facade.gpkg
+- PNE_usm 47-b.dxf
+- styles/distance-from-half-foot-multiple.qml
+- styles/perimeter-difference-from-bbox.qml
+- styles/relative-area-difference-from-bbox.qml
+- styles/w-h-st-dev.qml
+- styles/width-mapped-to-roman-standards.qml
+```
+
+
 # Introduzione
 Questo modulo è finalizzato all'utilizzo _non geografico_ di QGIS per l'analisi statistica ed automatizzata delle tessiture murarie.
 Come dato di partenza verrà utilizzato un file AutoCAD con il rilievo di dettaglio di un prospetto murario, per comodità, con grandi superfici in laterizio, che verrà trasformato per rendere possibili analisi quantitative.
 Per questo motivo verrà usato il prospetto PNE_usm 47-b degli scavi del Palatino (dir. prof.ssa M.Teresa D'Alessio).
 
+![](img/PNE_usm%2047-b-screenshot.png)
 ## Pre-processamento dei dati
 ### DWG -> DXF
+
 Per l'uso di file CAD in QGIS è necessario salvare il file in formato AutoCAD DWG in formato [AutoCAD DXF](https://en.wikipedia.org/wiki/AutoCAD_DXF) utilizzando un programma CAD capace di leggere i file DWG. 
 > **QGIS, per motivi di licenza, non gestisce i file proprietari DWG**.
 
@@ -25,4 +42,4 @@ Come risultato si ha il file di output `PNE_usm 47-b.dxf`
 - Dividere il poligono di `limite` dagli altri.
 ---
 Prossimo passo:
-- [Analisi preliminare delle misure romane](Analisi%20preliminare%20delle%20misure%20romane.md)
+- [Creazione dei campi virtuali con le misure ricavate](Creazione%20dei%20campi%20virtuali%20con%20le%20misure%20ricavate.md)

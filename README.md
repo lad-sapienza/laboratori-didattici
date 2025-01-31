@@ -32,7 +32,7 @@ Appunti per il Laboratorio di Archeologia Digitale
 - [ERD - Progettazione di una banca dati relazionale](ERD%20-%20Progettazione%20di%20una%20banca%20dati%20relazionale.md)
 - [Introduzione a Bradypus](https://lad.saras.uniroma1.it/ricerca/bradypus-cloud-databases/)
 - [Guida online](https://docs.bdus.cloud/)
-- [Realizazione di una banca dati relazionale con Bradypus](https://bdus.cloud/edu/db/)
+- [Realizzazione di una banca dati relazionale con Bradypus](https://bdus.cloud/edu/db/)
 
 ### 3. GIS avanzato: Esempio di Analisi multi-criterio
 - [GIS Avanzato - Analisi multi-criterio](GIS%20Avanzato%20-%20Analisi%20multi-criterio.md)
@@ -40,4 +40,8 @@ Appunti per il Laboratorio di Archeologia Digitale
 - [Calcolatore dei campi](Calcolatore%20dei%20campi.md)
 - [Analisi a criteri multipli](Analisi%20a%20criteri%20multipli.md)
 ### 4. GIS avanzato: Analisi elevati
-- [Introduzione all'analisi degli elevati](GIS%20avanzato%20-%20Analisi%20elevati.md)
+- [GIS avanzato - Analisi elevati](GIS%20avanzato%20-%20Analisi%20elevati.md)
+- [Creazione dei campi virtuali con le misure ricavate](Creazione%20dei%20campi%20virtuali%20con%20le%20misure%20ricavate.md)
+- [Analisi della regolarità](Analisi%20della%20regolarità.md)
+- [Analisi preliminare delle misure romane](Analisi%20preliminare%20delle%20misure%20romane.md)
+- 

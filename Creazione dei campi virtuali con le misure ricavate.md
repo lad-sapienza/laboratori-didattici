@@ -10,7 +10,7 @@ Con il nostro esempio, **oriented bounding box** e :
 ![](img/oriented-bounding-box.png)
 **Bounding box non orientato**:
 ![](img/bounding-box.png)
-### Ricavare le dimensioni del BBOX
+### Ricavare le dimensioni del BBOX orientato
 
 #### Lunghezza
 
@@ -66,3 +66,6 @@ round(
   3
 )
 ```
+---
+Prossimo passo
+- [Analisi della regolarità](Analisi%20della%20regolarità.md)
