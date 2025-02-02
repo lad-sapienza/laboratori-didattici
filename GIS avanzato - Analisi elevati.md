@@ -221,7 +221,7 @@ Le elenco in una tabella in ordine:
 
 ## 8. Definire una visualizzazione con regole personalizzate per mappare le dimensioni delle misure romane al rilievo
 
-Rule based styles:
+Rule based styles, dove `n` è una misura di tolleranza definita come variabile di layer:
 - **14 ±n: Bessales**
   `"bbw" BETWEEN (0.14-@tollerance) AND (0.14+@tollerance)`
 - **20 ±n: Bipedales, Bessales**
