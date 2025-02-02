@@ -1,8 +1,8 @@
 # Indice generale
 
 Appunti per il Laboratorio di Archeologia Digitale
-***
 
+---
 
 ### 1. GIS base per l'Archeologia
 - [Introduzione a QGIS](Introduzione%20a%20QGIS.md)
@@ -15,7 +15,7 @@ Appunti per il Laboratorio di Archeologia Digitale
 - [Gestione vettori creazione, modifica](Gestione%20vettori%20creazione,%20modifica.md)
 - SQL
 	- [Introduzione al linguaggio SQL](Introduzione%20al%20linguaggio%20SQL.md)
-	- [Interrogazioni SQL in QGIS](Interrogazioni%20SQL%20in%20QGIS.md)
+	- [Interrogazioni SQL in QGIS](Interrogazioni%20SQL%20in%20QGIS.md)page
 	- [Sintassi SQL (DQL) di base](Sintassi%20SQL%20(DQL)%20di%20base.md)
 - [Simbologia](Simbologia.md)
 - [Altri format di input](Altri%20format%20di%20input.md)
