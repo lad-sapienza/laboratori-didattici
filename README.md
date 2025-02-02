@@ -41,7 +41,3 @@ Appunti per il Laboratorio di Archeologia Digitale
 - [Analisi a criteri multipli](Analisi%20a%20criteri%20multipli.md)
 ### 4. GIS avanzato: Analisi elevati
 - [GIS avanzato - Analisi elevati](GIS%20avanzato%20-%20Analisi%20elevati.md)
-- [Creazione dei campi virtuali con le misure ricavate](Creazione%20dei%20campi%20virtuali%20con%20le%20misure%20ricavate.md)
-- [Analisi della regolarità](Analisi%20della%20regolarità.md)
-- [Analisi preliminare delle misure romane](Analisi%20preliminare%20delle%20misure%20romane.md)
-- 
