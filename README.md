@@ -27,17 +27,17 @@ Appunti per il Laboratorio di Archeologia Digitale
 	- [Caricamento Tiles vettoriali](Caricamento%20Tiles%20vettoriali.md)
 - **TODO**: Layout di stampa
 
-###  2. Banche Dati Relazionali per l'Archeologia
-- Introduzione alle banche dati relazionali
-- [ERD - Progettazione di una banca dati relazionale](ERD%20-%20Progettazione%20di%20una%20banca%20dati%20relazionale.md)
-- [Introduzione a Bradypus](https://lad.saras.uniroma1.it/ricerca/bradypus-cloud-databases/)
-- [Guida online](https://docs.bdus.cloud/)
-- [Realizzazione di una banca dati relazionale con Bradypus](https://bdus.cloud/edu/db/)
+### 2. GIS avanzato: Analisi elevati
+- [GIS avanzato - Analisi elevati](GIS%20avanzato%20-%20Analisi%20elevati.md)
 
 ### 3. GIS avanzato: Esempio di Analisi multi-criterio
 - [GIS Avanzato - Analisi multi-criterio](GIS%20Avanzato%20-%20Analisi%20multi-criterio.md)
 - [Preparazione dei dati](Preparazione%20dei%20dati.md)
 - [Calcolatore dei campi](Calcolatore%20dei%20campi.md)
 - [Analisi a criteri multipli](Analisi%20a%20criteri%20multipli.md)
-### 4. GIS avanzato: Analisi elevati
-- [GIS avanzato - Analisi elevati](GIS%20avanzato%20-%20Analisi%20elevati.md)
+###  4. Banche Dati Relazionali per l'Archeologia
+- Introduzione alle banche dati relazionali
+- [ERD - Progettazione di una banca dati relazionale](ERD%20-%20Progettazione%20di%20una%20banca%20dati%20relazionale.md)
+- [Introduzione a Bradypus](https://lad.saras.uniroma1.it/ricerca/bradypus-cloud-databases/)
+- [Guida online](https://docs.bdus.cloud/)
+- [Realizzazione di una banca dati relazionale con Bradypus](https://bdus.cloud/edu/db/)
