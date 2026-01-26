@@ -1,5 +1,6 @@
-# Indice generale
-> Appunti per il Laboratorio di Archeologia Digitale
+# Appunti per il Laboratorio di Archeologia Digitale
+
+> Moduli **GIS Base**, **GIS Avanzato**, **Database**
 
 [👉 Versione online: https://lad-sapienza.github.io/laboratori-didattici/](https://lad-sapienza.github.io/laboratori-didattici/)
 
@@ -40,6 +41,7 @@
 - [Preparazione dei dati](Preparazione%20dei%20dati)
 - [Calcolatore dei campi](Calcolatore%20dei%20campi)
 - [Analisi a criteri multipli](Analisi%20a%20criteri%20multipli)
+
 ###  4. Banche Dati Relazionali per l'Archeologia
 - Introduzione alle banche dati relazionali
 - [ERD - Progettazione di una banca dati relazionale](ERD%20-%20Progettazione%20di%20una%20banca%20dati%20relazionale)
