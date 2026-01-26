@@ -1,7 +1,3 @@
----
-title: Laboratori Didattici di Archeologia Digitale | LAD Sapienza
-description: "Appunti per i Laboratori di Archeologia Digitale del LAD alla Sapienza. Informazioni: https://lad-sapienza.github.io/laboratori-didattici/"
----
 
 [![LAD: Laboratorio di Archeologia Digitale alla Sapienza](./img/LAD.png)](https://lad.saras.uniroma1.it/)
 
