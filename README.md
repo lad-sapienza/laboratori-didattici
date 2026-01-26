@@ -1,12 +1,16 @@
+---
+title: Laboratori Didattici di Archeologia Digitale | LAD Sapienza
+description: "Appunti per i Laboratori di Archeologia Digitale del LAD alla Sapienza. Informazioni: https://lad-sapienza.github.io/laboratori-didattici/"
+---
+
+[![LAD: Laboratorio di Archeologia Digitale alla Sapienza](./img/LAD.png)](https://lad.saras.uniroma1.it/)
+
+
 # Appunti per il Laboratorio di Archeologia Digitale
 
 > Moduli **GIS Base**, **GIS Avanzato**, **Database**
 
 [👉 Versione online: https://lad-sapienza.github.io/laboratori-didattici/](https://lad-sapienza.github.io/laboratori-didattici/)
-
-
-[![LAD: Laboratorio di Archeologia Digitale alla Sapienza](./img/LAD.png)](https://lad.saras.uniroma1.it/)
-
 
 ---
 
