@@ -1,6 +1,8 @@
 # Indice generale
+> Appunti per il Laboratorio di Archeologia Digitale
 
-Appunti per il Laboratorio di Archeologia Digitale
+![LAD: Laboratorio di Archeologia Digitale alla Sapienza](./img/LAD.png)
+
 
 ---
 
