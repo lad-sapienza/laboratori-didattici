@@ -3,8 +3,8 @@
 
 - Web: [https://www.qgis.org/](https://www.qgis.org/en/site/)
 - Versione corrente:
-	- **LTR (Long Term Release): 3.34.15 Prizren**
-	- Versione più recente: 3.40.3 Bratislava
+	- **Long Term Release 3.40**
+	- Latest Release 3.44
 - Disponibile all'indirizzo [https://www.qgis.org/it/site/forusers/download.html](https://www.qgis.org/it/site/forusers/download.html) per:
 	- Windows
 	- MacOS
@@ -21,10 +21,10 @@
 	- Piattaforme mobile (QField, Input, IntraMaps Roam)
 
 ## Manuale utente
-https://docs.qgis.org/3.34/it/docs/user_manual/index.html
+[https://docs.qgis.org/3.40/it/docs/user_manual/index.html](https://docs.qgis.org/3.40/it/docs/about/features.html)
 
 ## Funzionalità principali
-https://docs.qgis.org/3.34/it/docs/user_manual/preamble/features.html
+[https://docs.qgis.org/3.40/it/docs/about/features.html](https://docs.qgis.org/3.40/it/docs/about/features.html)
 
 ## Interfaccia utente
 ![img/gui.png](img/gui.png)
