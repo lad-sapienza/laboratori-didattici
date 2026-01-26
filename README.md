@@ -1,7 +1,10 @@
 # Indice generale
 > Appunti per il Laboratorio di Archeologia Digitale
 
-![LAD: Laboratorio di Archeologia Digitale alla Sapienza](./img/LAD.png)
+[👉 Versione online: https://lad-sapienza.github.io/laboratori-didattici/](https://lad-sapienza.github.io/laboratori-didattici/)
+
+
+[![LAD: Laboratorio di Archeologia Digitale alla Sapienza](./img/LAD.png)](https://lad.saras.uniroma1.it/)
 
 
 ---
@@ -17,7 +20,7 @@
 - [Gestione vettori creazione, modifica](Gestione%20vettori%20creazione,%20modifica)
 - SQL
 	- [Introduzione al linguaggio SQL](Introduzione%20al%20linguaggio%20SQL)
-	- [Interrogazioni SQL in QGIS](Interrogazioni%20SQL%20in%20QGIS)page
+	- [Interrogazioni SQL in QGIS](Interrogazioni%20SQL%20in%20QGIS)
 	- [Sintassi SQL (DQL) di base](Sintassi%20SQL%20(DQL)%20di%20base)
 - [Simbologia](Simbologia)
 - [Altri format di input](Altri%20format%20di%20input)
