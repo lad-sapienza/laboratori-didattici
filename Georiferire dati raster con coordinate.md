@@ -5,6 +5,7 @@ tags:
 ---
 # Georiferire dati raster con coordinate
 [Accesso ai dati](Accesso%20ai%20dati.md) > Dataset: `georef-coord`
+📖 Info: [https://docs.qgis.org/3.40/it/docs/user_manual/managing_data_source/georeferencer.html](https://docs.qgis.org/3.40/it/docs/user_manual/managing_data_source/georeferencer.html)
 
 Contenuto:
 ```

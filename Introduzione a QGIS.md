@@ -40,4 +40,4 @@
    `Plugins > Gestisci e installa plugin...`
 2. Cercare installare ed eventualmente attivare i seguenti plugin:
 	- ~~Freehand raster georeferencer~~
-	- QuickMapServices
+	- [QuickMapServices](https://plugins.qgis.org/plugins/quick_map_services/)
