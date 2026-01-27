@@ -2,6 +2,10 @@
 tags:
   - raster
 ---
+## Introduzione
+
+[📖 Introduzione ai dati raster (Manuale QGIS)](https://docs.qgis.org/3.40/it/docs/gentle_gis_introduction/raster_data.html)
+
 ## Formati raster diffusi nell'ambito GIS
 
 ### Portable Network Graphics (PNG)

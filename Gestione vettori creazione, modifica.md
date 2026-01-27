@@ -2,6 +2,10 @@
 tags:
   - vectors
 ---
+## Introduzione
+
+[📖 Introduzione ai dati vettoriali (Manuale QGIS)](https://docs.qgis.org/3.40/it/docs/gentle_gis_introduction/vector_data.html)
+
 # Gestione vettori: creazione, modifica.
 [Accesso ai dati](Accesso%20ai%20dati.md) > Dataset: `vector-mng`
 
@@ -18,6 +22,6 @@ Contenuto dataset:
 2. Aprire un progetto nuovo di QGIS
 	1. Aggiungere Bing Satellite (`Web > QuickMapServices > Bing > Bing Satellite`)
 	2. Aggiungere il raster `24-Le-Caire-Belbeis.tif`
-3. Creare un nuovo vettore (geopackage) per vettorialzzare i villaggi
-4. Aggiungere nello stesso geopackage di prima un tema per i fiumi
+3. Creare un nuovo vettore (geopackage) per vettorializzare i villaggi
+4. Aggiungere nello stesso geopackage di prima un tema (layer) per i fiumi
 5. Inserire / modificare / cancellare geometrie e attributi

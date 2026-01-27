@@ -31,6 +31,7 @@
 	- [Caricamento GeoJSON remoto](Caricamento%20GeoJSON%20remoto)
 	- [Caricamento Tiles XYX](Caricamento%20Tiles%20XYX)
 	- [Caricamento Tiles vettoriali](Caricamento%20Tiles%20vettoriali)
+	- [Caricamento Servizi WMS e WFS](Caricamento%20Servizi%20WMS%20e%20WFS)
 - **TODO**: Layout di stampa
 
 ### 2. GIS avanzato: Analisi elevati
