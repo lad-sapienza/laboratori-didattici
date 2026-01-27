@@ -115,7 +115,7 @@ round(
 
 ## 5. Analisi della _regolarità_ dei blocchi
 ### Un possibile indice di regolarità: il perimetro
-Sulla base dell'assioma che la distanza più corta tra due punti è la reta che li collega, possiamo usare il perimetro per calcolare la regolarità della muratura.
+Sulla base dell'assioma che la distanza più corta tra due punti è la retta che li collega, possiamo usare il perimetro per calcolare la regolarità della muratura.
 Questo indice funziona bene con forme sub-quadrangolari:
 ![](img/blocco-e%20suo-bbox.png)
 Di contro, ci si aspetta che non funzioni altrettanto bene con forme tendenti al triangolare:
@@ -176,6 +176,7 @@ round( "bbw" %  @pes , 2)
 ```
 
 Attenzione: `%` è il simbolo dell'operazione **modulo**, sinonimo di `mod`.
+
 Da [Wikipedia](https://it.wikipedia.org/wiki/Operazione_modulo):
 > Tra i numeri interi è definita la funzione modulo, indicato con `mod`, che dà come risultato **il resto della divisione euclidea del primo numero per il secondo**.
 > ...
