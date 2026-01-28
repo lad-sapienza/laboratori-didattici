@@ -17,21 +17,20 @@
 	- [Georiferire dati raster con coordinate](Georiferire%20dati%20raster%20con%20coordinate)
 	- [Georiferier con GCP](Georiferier%20con%20GCP)
 	- ~~[Free Hand Georeferencer](Free%20Hand%20Georeferencer.md)~~
-- [Introduzione e formati dei vettori](Introduzione%20e%20formati%20dei%20vettori)
-- [Gestione vettori creazione, modifica](Gestione%20vettori%20creazione,%20modifica)
+- [Introduzione ai formati dei vettori](Introduzione%20ai%20formati%20dei%20vettori.md)
+- [Vettori gestione vettori creazione, modifica](Vettori%20gestione%20vettori%20creazione,%20modifica.md)
 - SQL
 	- [Introduzione al linguaggio SQL](Introduzione%20al%20linguaggio%20SQL)
 	- [Interrogazioni SQL in QGIS](Interrogazioni%20SQL%20in%20QGIS)
-	- [Sintassi SQL (DQL) di base](Sintassi%20SQL%20(DQL)%20di%20base)
 - [Simbologia](Simbologia)
 - [Altri format di input](Altri%20format%20di%20input)
 	- [Caricare geometrie da lista di coordinate](Caricare%20geometrie%20da%20lista%20di%20coordinate)
 	- [Caricare database da file](Caricare%20database%20da%20file)
 	- [JOIN](JOIN)
 	- [Caricamento GeoJSON remoto](Caricamento%20GeoJSON%20remoto)
+	- [Caricamento Servizi WMS e WFS](Caricamento%20Servizi%20WMS%20e%20WFS)
 	- [Caricamento Tiles XYX](Caricamento%20Tiles%20XYX)
 	- [Caricamento Tiles vettoriali](Caricamento%20Tiles%20vettoriali)
-	- [Caricamento Servizi WMS e WFS](Caricamento%20Servizi%20WMS%20e%20WFS)
 - **TODO**: Layout di stampa
 
 ### 2. GIS avanzato: Analisi elevati

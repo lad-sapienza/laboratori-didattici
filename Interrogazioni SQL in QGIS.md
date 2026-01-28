@@ -21,59 +21,22 @@ Contenuto del dataset:
 3. Creare e testare i  filtri
 	1. Introduzione al `Costruttore di interrogazioni`
 
-## Sintassi di base SQL.
-[Sintassi SQL (DQL) di base](Sintassi%20SQL%20(DQL)%20di%20base.md)
+## Esercizi
+### Esercizio 1
+
+Mostra tutti i siti che sono stati capitale di _nomós_
+
+### Esercizio 2
+
+Mostra tutti i siti che sono stati capitale di _nomós_ **e** la cui tipologia è `settlement`
+Esemplificare tre metodi diversi, che per il dataset in oggetto restituiscono lo stesso risultato (`LIKE`, `OR`, `IN`)
+
+### Esercizio 3
+
+Mostra tutti i `settlement` e `settlement-modern` che sono stati capitale di _nomos_ 
 
 
-## Filtro 1: tutti i siti che sono stati capitale di _nomós_
-```sql
-"isnomoscapital" = '1'
-```
+### Esercizio 4
 
-## Filtro 2: tutti i siti che sono stati capitale di _nomós_ e la cui tipologia è `settlement`
-```sql
-"typology" = 'settlement'
-
-AND
-
-"isnomoscapital" = '1'
-```
-
-## Filtro 3: tutti i `settlement` e `settlement-modern` che sono stati capitale di _nomos_ 
-```sql
-# TODO
-```
-
-## Filtro 4: siti attivi  nel V sec. d.C.
-```sql
-"datefrom" < 500 AND "dateto" > 400
-```
-
-
-## Riassunto: tre query diverse che danno lo stesso risultato:
-```sql
-"isnomoscapital" = '1'
- AND 
- "typology" LIKE 'setlement%'
-```
-
-e
-
-```sql
-"isnomoscapital" = '1'
- AND 
- "typology" IN ('setlement', 'setlement-modern')
-```
-
-e
-
-```sql
-"isnomoscapital" = '1'
- AND 
- (
-	 "typology"  = 'setlement'
-	 OR
-	 "typology"  = 'setlement-modern'
- )
-```
+Mostra tutti i siti attivi  nel V sec. d.C.
 
