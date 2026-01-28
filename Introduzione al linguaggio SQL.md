@@ -4,38 +4,54 @@ tags:
 ---
 # SQL: Structured Query Language
 Un linguaggio formale per gestire, dalla A alla Z, i database relazionali, compresi i **geo**database relazionali (GIS).
+[👉 https://it.wikipedia.org/wiki/Structured_Query_Language](https://it.wikipedia.org/wiki/Structured_Query_Language)
 
 ## Standard e dialetti
 
 Lo **SQL** è standard del American National Standards Institute (ANSI) dal 1986, e del International Organization for Standardization (ISO) dal 1987.
 
-Nonostante ciò, molto raramente viene implementato nella sua forma standartizzata dai singoli produttori di RDBMS (Relational Database Management System), i quali introducono spesso varianti dialettali, sia al fine di aggiungere nuove funzioni non previste nello standard, sia per semplificare il lavoro degli utenti, sia infine per rendere più difficile il passaggio dei dati da un sistema all'altro.
+Nonostante ciò, molto raramente viene implementato nella sua forma standardizzata dai singoli produttori di [RDBMS (Relational Database Management System)](https://it.wikipedia.org/wiki/Database_management_system), i quali introducono spesso varianti dialettali, sia al fine di aggiungere nuove funzioni non previste nello standard, sia per semplificare il lavoro degli utenti, sia infine per rendere più difficile il passaggio dei dati da un sistema all'altro.
 Tra i moltissimi prodotti disponibili, solo [PostgreSQL](https://www.postgresql.org/) implementa in maniera rigida lo standard.
 
 ### Esempi di dialetti, differenza di sintassi
+
 La sintassi di **MySQL/MariaDB**, usa i _backtick_ (`` ` ``) per definire i nomi delle tabelle e dei campi
 
 ```sql
-SELECT * FROM `siti` WHERE 1;
+SELECT * FROM `siti`
 ```
 
-In **SQLite** possono essere usati indifferentemente  i _backtick_ (`` ` ``), i doppi apici (`"`),  i singoli apici (`'`) oppure nessuno di questi per definire i nomi delle tabelle e dei campi. Le seguenti espressioni sono tutte equivalenti:
+In **SQLite** possono essere usati indifferentemente  i _backtick_ (`` ` ``), i doppi apici (`"`),  i singoli apici (`'`) oppure nessuno di questi per definire i nomi delle tabelle e dei campi. Le seguenti espressioni sono tutte concettualmente equivalenti, ma in sistemi diversi possono funzionare o meno:
 
 ```sql
-SELECT * FROM `siti` WHERE 1;
-SELECT * FROM "siti" WHERE 1;
-SELECT * FROM 'siti' WHERE 1;
-SELECT * FROM  siti  WHERE 1;
+SELECT * FROM `siti`
+```
+
+```sql
+SELECT * FROM "siti"
+```
+
+```sql
+SELECT * FROM 'siti'
+```
+
+```sql
+SELECT * FROM  siti
+```
+
+```sql
+SELECT * FROM  SITI
 ```
 
 **PostgreSQL**, come anche **QGIS** ammette, seguendo lo standard, solo i doppi apici (`"`). La loro mancanza o ogni altro carattere risulterà in un errore di sintassi. I singoli apici sono riservati per indicare esclusivamente le stringhe di testo.
 
 ```sql
-SELECT * FROM "siti" WHERE 1=1;
+SELECT * FROM "siti" WHERE "cronologia" = 'LHell'
 ```
 
 ## Sotto-linguaggi
-Lo SQL presenta uno strumentario molto ricco per interagire con i database. A seconda dell'utilizzo, possono essere definiti **informalente** dei sotto-liguaggi, tutti insieme :
+
+Lo SQL presenta uno strumentario molto ricco per interagire con i database. A seconda dell'utilizzo, possono essere definiti **informalente** dei sotto-linguaggi, tutti insieme :
 
 **DDL** (Data Definition Language) usato per  creare e modificare schemi di database, es.:
 ```sql
@@ -125,6 +141,8 @@ Nel linguaggio SQL l'ordine di valutazione è:
 1. `NOT`
 2. `AND`
 3. `OR`
+
+
 Quindi la query sopra estrarrà dal database:
 
 > **tutte le persone che si chiamano `Mario Rossi` ed anche tutte le persone che si chiamano `Giovanni` (con qualsiasi cognome)**
@@ -196,9 +214,9 @@ Il carattere jolly può essere usato anche i posizione intermedia, per ovviare, 
 ```
 
 troverà:
-- `Giammaria`
-- `Gianmaria`
-- `Giamaria`
+- Gia**m**maria
+- Gia**n**maria
+- Giamaria
 
 ### Operatori `<`,  `>`, `<=` e `>=`
 Permettono di confrontare valori (principalmente) numerici, es:
