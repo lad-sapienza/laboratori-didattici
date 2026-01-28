@@ -38,7 +38,7 @@ SELECT * FROM "siti" WHERE 1=1;
 Lo SQL presenta uno strumentario molto ricco per interagire con i database. A seconda dell'utilizzo, possono essere definiti **informalente** dei sotto-liguaggi, tutti insieme :
 
 **DDL** (Data Definition Language) usato per  creare e modificare schemi di database, es.:
-```SQL
+```sql
 CREATE TABLE "siti" (
 	"id" INT PRIMARY KEY NOT NULL,
 	"nome" CHAR(50) NOT NULL,
@@ -49,7 +49,7 @@ CREATE TABLE "siti" (
 ```
 
 **DML** (Data Manipulation Language) usato per inserire, modificare e gestire dati memorizzati, es.:
-```SQL
+```sql
 INSERT INTO "siti"
 	("nome", "tipologia", "crono_da", "crono_a")
 	VALUES
@@ -58,7 +58,11 @@ INSERT INTO "siti"
 
 **DQL** (Data Query Language) usato per interrogare i dati memorizzati, es.:
 ```sql
-SELECT *  FROM "siti" WHERE "tipologia" = 'città';
+SELECT *  
+  FROM 
+    "siti" 
+  WHERE 
+    "tipologia" = 'città';
 ```
 
 **DCL** (Data Control Language) creare e gestire strumenti di controllo e accesso ai dati, es.:
@@ -79,7 +83,7 @@ Ogni asserzione ha una struttura tripartita:
 
 
 **Esempio**:
-```SQL
+```sql
 "cognome" = 'Rossi'
 ```
 
@@ -89,11 +93,15 @@ Ogni asserzione ha una struttura tripartita:
 
 **Esempio**:
 ```sql
-"cognome" = 'Rossi' AND "nome" = 'Mario'
+"cognome" = 'Rossi'
+AND
+"nome" = 'Mario'
 ```
 
 ```sql
-"cognome" = 'Rossi' OR "cognome" = 'Doe'
+"cognome" = 'Rossi' 
+OR 
+"cognome" = 'Doe'
 ```
 
 ### Definizione delle priorità
@@ -124,9 +132,9 @@ Quindi la query sopra estrarrà dal database:
 In questi termini è equivalente a:
 ```sql
 (
-  "cognome" = 'Rossi' 
-  AND 
-  "nome" = 'Mario'
+  "cognome" = 'Rossi'
+  AND
+  "nome" = 'Mario'
 )
 OR
 "nome" = 'Giovanni'
@@ -138,9 +146,9 @@ Se invece vogliamo tutti i componenti della famiglia Rossi che si chiamano Mario
 "cognome" = 'Rossi' 
 AND 
 (
-  "nome" = 'Mario' 
-  OR 
-  "cognome" = 'Giovanni'
+  "nome" = 'Mario' 
+  OR 
+  "cognome" = 'Giovanni'
 )
 ```
 
@@ -160,7 +168,7 @@ troverà tutti i `Mario`
 
 Permette di usare il `wildcard`, ovvero carattere jolly `%` che sta per `ogni possibile carattere 0, 1 o più volte`, es.:
 ```sql
-"nome" LIKE 'Mari%'
+"nome" LIKE 'mari%'
 ```
 troverà tutte le persone il cui nome comincia con `Mari...`. Troverà dunque:
 - `Mario`
@@ -169,18 +177,13 @@ troverà tutte le persone il cui nome comincia con `Mari...`. Troverà dunque:
 - `Mariangela`
 - ecc...
 
-Per contro:
-```sql
-"typology" LIKE '%settlement'
-```
-
-troverà sia `settlement` che `modern settlement`, ma non `settlement-modern`.
-
-Invece:
+Mentre:
 ```sql
 "nome" LIKE '%mari%'
 ```
-troverà tutti i valori che contengono la stringa `mari` in qualsiasi posizione, quindi anche 
+
+troverà tutti i valori che contengono la stringa `mari` in qualsiasi posizione, quindi anche:
+
 - `Francesca Maria`
 - `Giammaria`
 - `Francescamaria`
