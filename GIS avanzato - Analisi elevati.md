@@ -90,7 +90,7 @@ array_max(array(0, 42, 4, 2)) → 42
 ```
 - `round`: Arrotonda un numero ad un numero di cifre decimali
 
-**Formula per calcolare _al volo_ l'altezza:
+**Formula per calcolare _al volo_ l'altezza:**
 La formula è la stessa rispetto alla lunghezza, ma dalla lista prendo il valore più piccolo (`array_min`).
 
 ```
@@ -125,7 +125,7 @@ Di contro, ci si aspetta che non funzioni altrettanto bene con forme tendenti al
 
 Quindi, la formula per ricavare la differenza di perimetro in termini assoluti potrebbe essere calcolato dalla formula:
 
-`perimetro della rettangolo regolare (bbox) -  perimetro del poligono attuale`
+`perimetro della rettangolo regolare orientato (oriented_bbox) -  perimetro del poligono attuale`
 
 Ovvero:
 
@@ -143,7 +143,11 @@ L'uso della superficie, invece, ci permette di calcolate con maggiore precisione
 `area del poligono regolare - area della geometria corrente`
 
 Questa differenza può essere resa relativa se la dividiamo per l'area del poligono regolare:
-`(area del poligono regolare - area della geometria corrente) / area del poligono regolare`
+```
+(
+	area del poligono regolare - area della geometria corrente
+) / area del poligono regolare
+```
 
 Ovvero:
 
@@ -167,7 +171,7 @@ area(
 round( "bbw" / "bbh" , 3)
 ```
 
-Simbologia: graduato, usando come valore la formula `round( "bbw" / "bbh" , 3)` e come modo di la [Deviazione Standard](https://en.wikipedia.org/wiki/Standard_deviation).
+Simbologia: graduato, usando come valore la formula `round( "bbw" / "bbh" , 3)` e come modalità la [Deviazione Standard](https://it.wikipedia.org/wiki/Scarto_quadratico_medio).
 
 ### Calcolo della distanza dal modulo del ’mezzo-piede’
 
@@ -180,7 +184,7 @@ Attenzione: `%` è il simbolo dell'operazione **modulo**, sinonimo di `mod`.
 Da [Wikipedia](https://it.wikipedia.org/wiki/Operazione_modulo):
 > Tra i numeri interi è definita la funzione modulo, indicato con `mod`, che dà come risultato **il resto della divisione euclidea del primo numero per il secondo**.
 > ...
-> Per esempio, si ha `13 mod 3 = 1` , perché `⌊ 13 / 3 ⌋ = 4`   quindi `13 − ( 3 ⋅ 4 ) = 1` e dunque il resto è `1`. 
+> Per esempio, si ha `13 mod 3 = 1` , perché `⌊ 13 / 3 ⌋ = 4`   quindi `13 − ( 3 x 4 ) = 1` e dunque il resto è `1`. 
 
 
 ---

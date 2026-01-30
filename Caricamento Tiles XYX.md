@@ -22,3 +22,7 @@ oppure
 9. Click su `OK`
 10. Selezionare la risorsa dal menu a tendine e poi click su `Aggiungi`
 11. Click su `Close`
+
+## Imperium (DARE):
+- ℹ️ [https://imperium.ahlfeldt.se/](https://imperium.ahlfeldt.se/)
+- 🔗 `https://dh.gu.se/tiles/imperium/{z}/{x}/{y}.png`
