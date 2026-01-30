@@ -173,6 +173,12 @@ round( "bbw" / "bbh" , 3)
 
 Simbologia: graduato, usando come valore la formula `round( "bbw" / "bbh" , 3)` e come modalità la [Deviazione Standard](https://it.wikipedia.org/wiki/Scarto_quadratico_medio).
 
+---
+
+📖  **Approfondimento**: [QGIS – Modalità di classificazione](QGIS%20–%20Modalità%20di%20classificazione.md)
+
+---
+
 ### Calcolo della distanza dal modulo del ’mezzo-piede’
 
 ```
