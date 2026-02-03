@@ -12,9 +12,9 @@ tags:
 2. Raggruppare i livelli vettoriali (`fiumi-lazio`, `strade-lazio`, `acque-interne-lazio` e `insediamenti-imperiali`) in un gruppo chiamato `Step-1`
 3. Rasterizzare i vettori del gruppo `Step-1`
 	1. Menu `Processing` > `Strumenti`
-    2. Nel panello che siapre cercare e pprire lo strumento `Rasterize (da vettore a raster)`
+    2. Nel panello che siapre cercare e aprire lo strumento `Rasterize (da vettore a raster)`
 	    1. In `Parametri` selezionare `strade-lazio` come `Layer in ingresso`
-    	2. Impostare come `valore fissato da scrivere` a `1,000000`
+    	3. Impostare come `valore fissato da scrivere` a `1,000000`
 	    3. Impostare `unità di misura del raster in uscita` come `unità georeferenziate`
     	4. Impostare `larghezza/risoluzione orizzontale` a `15,000000`
 	    5. Impostare `altezza/risoluzione verticale` a `15,000000`

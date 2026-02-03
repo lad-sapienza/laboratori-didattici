@@ -21,20 +21,32 @@ Data set:
 	2. In espressione inserire :
 ```
 if(
-	strpos(
-		string_to_array(  "cronologia" , ' - ')[0],
-		'AD'
-	) > 0,
-	 replace(
-	   string_to_array(  "cronologia" , ' - ')[0],
-	   'AD ',
-	   ''
-	 ),
-	replace(
-	   string_to_array(  "cronologia" , ' - ')[0],
-	   ' BC',
-	   ''
-	 )*-1
+
+    strpos(
+        string_to_array(  "cronologia" , '-')[0],
+        'AD'
+    ) > 0,
+    
+    to_int(
+        trim(
+            replace(
+                string_to_array(  "cronologia" , '-')[0],
+                'AD ',
+                ''
+            )
+        )
+    ),
+    
+	to_int(
+    	trim(
+        	replace(
+        	   string_to_array(  "cronologia" , '-')[0],
+        	   'BC',
+        	   ''
+        	 )
+         )
+    ) * -1
+    
 )
 ```
 4. Calcolatore di campo
@@ -42,20 +54,32 @@ if(
 	2. In espressione inserire :
 ```
 if(
-	strpos(
-		string_to_array(  "cronologia" , ' - ')[1],
-		'AD'
-	) > 0,
-	 replace(
-	   string_to_array(  "cronologia" , ' - ')[1],
-	   'AD ',
-	   ''
-	 ),
-	replace(
-	   string_to_array(  "cronologia" , ' - ')[1],
-	   ' BC',
-	   ''
-	 )*-1
+
+    strpos(
+        string_to_array(  "cronologia" , '-')[1],
+        'AD'
+    ) > 0,
+    
+    to_int(
+        trim(
+            replace(
+                string_to_array(  "cronologia" , '-')[1],
+                'AD ',
+                ''
+            )
+        )
+    ),
+    
+	to_int(
+    	trim(
+        	replace(
+        	   string_to_array(  "cronologia" , '-')[1],
+        	   'BC',
+        	   ''
+        	 )
+         )
+    ) * -1
+    
 )
 ```
 5. Cancellare i campi  `descrizione` e `cronologia`
